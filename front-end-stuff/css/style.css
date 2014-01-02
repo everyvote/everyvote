@@ -71,7 +71,7 @@ body {
 }
 
 .home {
-    max-width:800px;
+    max-width:760px;
     padding:20px 40px;
     margin:0 auto;
 }
@@ -113,8 +113,8 @@ body {
 @media (min-width:992px) {
     .main {
         background-color:#fcfcfc;
-        padding-right:30px;
-        padding-left:30px;
+        padding-right:35px;
+        padding-left:35px;
         border-right:4px solid #eee;
     }
 }
@@ -278,6 +278,31 @@ body {
     cursor:pointer;
 }
 
+.main-video {
+    font-size:16px;
+    margin:10px 0;
+    padding:0 20px;
+}
+
+.main-moderator {
+    font-size:14px;
+    padding:15px 20px;
+    
+}
+
+.main-moderator-name {
+    margin:0 0 0 20px;
+}
+
+.gray-container {
+    background-color:#f9f9f9;
+    margin:10px 0;
+}
+
+.main-video-container {
+    margin:12px 0 0 0;
+}
+
 .home-bar-2 {
     font-size:15px;
     padding:10px 22px;
@@ -288,11 +313,9 @@ body {
     cursor:pointer;
 }
 
-
-
 .main-group {
     clear:left;
-    padding:10px 20px;
+    padding:20px;
     border-top:1px dashed #aaa;
     cursor:pointer;
 }
@@ -356,14 +379,14 @@ body {
 
 .main-voting-days {
     font-size:16px;
-    margin:20px 0 10px 0;
+    margin:10px 0;
     padding:0 20px;
 }
 
 .main-about {
     margin:0 0 20px 0;
     padding:0 20px;
-    font-size:14px;
+    font-size:16px;
 }
 
 .main-level-1 {
@@ -469,7 +492,7 @@ body {
 }
 
 .main-questions-level-1 {
-    background-color:#e7e7e7;
+    background-color:#eee;
     padding:10px 20px;
     border-top:1px solid #aaa;
     border-right:1px solid #aaa;
@@ -869,8 +892,8 @@ body {
 
 @media (min-width:992px) {
     .side {
-        margin:0 0 0 15px;
-        padding-right:15px;
+        margin:0 0 0 20px;
+        padding-right:20px;
     }
 }
 
@@ -896,6 +919,7 @@ body {
     padding:5px 10px;
     border:1px solid #aaa;
     cursor:pointer;
+    border-radius:3px;
 }
 
 .side-bar-header:hover {
@@ -908,6 +932,7 @@ body {
     padding:5px 10px;
     border:1px solid #aaa;
     cursor:pointer;
+    border-radius:3px;
 }
 
 .side-bar-recent-activity-header:hover {
@@ -976,6 +1001,7 @@ body {
     margin:10px 0 0 0;
     border:1px solid #aaa;
     cursor:pointer;
+    border-radius:3px;
 }
 
 .side-bar-officers-header:hover {
@@ -1000,6 +1026,7 @@ body {
     margin:10px 0 0 0;
     border:1px solid #aaa;
     cursor:pointer;
+    border-radius:3px;
 }
 
 .side-bar-mod-controls-header:hover {
@@ -1163,7 +1190,7 @@ body {
 }
 
 .pseudo-row {
-    margin:0 20px;
+    margin:0 -15px;
 }
 
 .clear-both {
