@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 # Create your models here.
 
@@ -68,7 +69,7 @@ class Office(models.Model):
 
 class Election(models.Model):
     constituency = models.ForeignKey(Constituency)
-    name = models.CharField(max_length=50)
+    name = models.CharField(max_length=100)
     about = models.TextField(blank=True)
     first_day_of_voting = models.DateField()
     last_day_of_voting = models.DateField(blank=True)
@@ -86,6 +87,7 @@ class Election(models.Model):
 
 class Session(models.Model):
     constituency = models.ForeignKey(Constituency)
+    name = models.CharField(max_length=100)
     first_day_of_session = models.DateField()
     last_day_of_session = models.DateField()
     offices = models.ManyToManyField(Office, blank=True)
@@ -121,38 +123,38 @@ class Officer(models.Model):
     office = models.ForeignKey(Office)
     party = models.CharField(max_length=50, blank=True)
 
-class Stance(models.Model):
+# class Stance(models.Model):
 
-class Comment(models.Model):
-    user = models.ForeignKey(UserProfile)
-    answer = models.ForeignKey(Answer)
-    stance = models.ForeignKey(Stance)
-    comment = models.TextField()
+# class Comment(models.Model):
+#    user = models.ForeignKey(UserProfile)
+#    answer = models.ForeignKey(Answer)
+#    stance = models.ForeignKey(Stance)
+#    comment = models.TextField()
 
-class Answer(models.Model):
-    user = models.ForeignKey(UserProfile)
-    stance = models.ForeignKey(Stance)
-    answer = models.TextField()
-    # how do we activate yes_or_no? if the Question has yes_or_no=True, how do we activate Stance?
+# class Answer(models.Model):
+#    user = models.ForeignKey(UserProfile)
+#    stance = models.ForeignKey(Stance)
+#    answer = models.TextField()
+#    # how do we activate yes_or_no? if the Question has yes_or_no=True, how do we activate Stance?
     
-class Question(models.Model):
-    question = models.TextField()
-    user = models.ForeignKey(UserProfile)
-    answers = models.ManyToManyField(Answer)
-    yes_or_no = models.BooleanField()
-    session = models.ForeignKey(Session)
+# class Question(models.Model):
+#    question = models.TextField()
+#    user = models.ForeignKey(UserProfile)
+#    answers = models.ManyToManyField(Answer)
+#    yes_or_no = models.BooleanField()
+#    session = models.ForeignKey(Session)
 
-class Announcement(models.Model):
-    announcement = models.TextField()
-    session = models.ForeignKey(Session)
-    user = models.ForeignKey(UserProfile)
+# class Announcement(models.Model):
+#    announcement = models.TextField()
+#    session = models.ForeignKey(Session)
+#    user = models.ForeignKey(UserProfile)
 
-class Event(models.Model):
-    name = models.CharField(max_length=100)
-    start_time = models.DateField()
-    end_time = models.DateField()
-    location = models.TextField()
-    details = models.TextField()
-    session = models.ForeignKey(Session)
+# class Event(models.Model):
+#    name = models.CharField(max_length=100)
+#    start_time = models.DateField()
+#    end_time = models.DateField()
+#    location = models.TextField()
+#    details = models.TextField()
+#    session = models.ForeignKey(Session)
 
 # class Vote(models.Model):

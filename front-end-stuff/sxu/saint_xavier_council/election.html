@@ -112,7 +112,7 @@
               <img src="../../img/university_logos/saint_xavier_university_logo.gif">
             </div>
               <div class="main-header-top">
-                <div class="main-header-top-button button-primary">
+                <div class="main-header-top-button button-primary hidden-xs">
                   <a href="#"><i class="fa fa-share-square-o"></i> Share</a>
                 </div>
                 <div class="main-header-top-name">
@@ -130,11 +130,14 @@
                   <div class="main-header-bottom-button-last button-warning hidden-xs visible-sm visible-md visible-lg">
                     <a href="#"><i class="fa fa-check-square-o"></i> Vote Online</a>
                   </div>
+                  <div class="main-header-bottom-button-xs button-primary visible-xs hidden-sm hidden-md hidden-lg">
+                    <a href="#">Share</a>
+                  </div>
                   <div class="main-header-bottom-button-xs button-success visible-xs hidden-sm hidden-md hidden-lg">
-                    <a href="#"><i class="fa fa-question-circle"></i> Ask</a>
+                    <a href="#">Ask</a>
                   </div>
                   <div class="main-header-bottom-button-last-xs button-warning visible-xs hidden-sm hidden-md hidden-lg">
-                    <a href="#"><i class="fa fa-check-square-o"></i> Vote</a>
+                    <a href="#">Vote</a>
                   </div>
                 </div>
                 <div class="main-header-bottom-social">
@@ -181,6 +184,11 @@
                 <i class="fa fa-book"></i> About
               </div>
             </a>
+            <a href="#">
+              <div class="main-tabs-tab">
+                <i class="fa fa-film"></i> Videos
+              </div>
+            </a>
             <div class="clear-both">
             </div>
           </div><!-- /.main-tabs -->
@@ -189,7 +197,7 @@
           <div class="main-bar">
             <div class="btn-group">
               <div class="main-bar-dropdown dropdown-toggle" data-toggle="dropdown">
-                <strong>Spring 2014 Election</strong> <span class="caret"></span> &nbsp
+                Spring 2014 Election <span class="caret"></span> &nbsp
               </div>
               <ul class="main-bar-dropdown-menu dropdown-menu" role="menu">
                 <li><a href="#">Fall 2013 Election</a></li>
@@ -202,56 +210,37 @@
         </div><!-- /.row -->
         <div class="row">
           <div class="border-dashed-right-left">
-            <div class="col-sm-7">
-              <div class="pseudo-row">
-              <div class="main-title">
-                <strong>Voting Days</strong>
-              </div>
-              <div class="main-text">
-                02/29/14 - 9am to 5pm - Saturday<br />
-                02/30/14 - 9am to 5pm - Sunday<br />
-                02/31/14 - 9am to 5pm - Monday
-              </div>
-              <div class="main-title">
-                <strong>About Election</strong>
-              </div>
-              <div class="main-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-
-                Duis eget vestibulum felis. 
-
-                One day this nation will rise up and live out the true meaning of its creed. 
-
-                Vestibulum ante lorem, consequat quis purus nec, iaculis ultricies turpis. 
-                
-                We hold these truths to be self evident that all men are created equal.  
-
-                Nulla ullamcorper nibh felis, a vehicula felis fermentum ac.<br /><br />
-                
-                Integer et ipsum dui. In eu placerat purus. 
-                
-                Nam non enim ac mauris tincidunt scelerisque. 
-                
-                Now is the time to make real the promises of democracy. 
-                
-                Curabitur mattis augue mauris, sed in arcu tellus.
-                
-                An oasis of freedom and justice.
-                
-                Maecenas dignissim dignissim dui a eleifend. 
-              </div><!-- /.main-text -->
-              </div><!-- /.pseudo-row -->
-            </div><!-- /.col-sm-7 -->
-            <div class="col-sm-5">
-              <div class="pseudo-row">
-                <div class="main-video">
-                  <div class="video-container main-video-container" id="video-1">
-                    <iframe src="http://www.youtube.com/embed/HRIF4_WzU1w" frameborder="0" allowfullscreen></iframe>
-                  </div>
-                  <div style="margin:5px 0 0 0;">
-                    <a href="#">Show all videos (24)</a>
-                  </div>
+            <div class="main-body">
+              <div class="col-sm-7">
+                <div class="pseudo-row">
+                <div class="main-title">
+                  <strong>About Election</strong>
                 </div>
+                <div class="main-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+
+                  Duis eget vestibulum felis. 
+
+                  One day this nation will rise up and live out the true meaning of its creed. 
+
+                  Vestibulum ante lorem, consequat quis purus nec, iaculis ultricies turpis. 
+                  
+                  We hold these truths to be self evident that all men are created equal.  
+
+                  Nulla ullamcorper nibh felis, a vehicula felis fermentum ac.<br /><br />
+                  
+                  Integer et ipsum dui. In eu placerat purus. 
+                  
+                  Nam non enim ac mauris tincidunt scelerisque. 
+                  
+                  Now is the time to make real the promises of democracy. 
+                  
+                  Curabitur mattis augue mauris, sed in arcu tellus.
+                  
+                  An oasis of freedom and justice.
+                  
+                  Maecenas dignissim dignissim dui a eleifend. 
+                </div><!-- /.main-text -->
                 <div class="main-title">
                   <strong>Moderators</strong>
                 </div>
@@ -259,10 +248,35 @@
                   <a href="#">Avril Incandenza</a><br />
                   <a href="#">Charles Tavis</a>
                 </div>
+                </div><!-- /.pseudo-row -->
+              </div><!-- /.col-sm-7 -->
+              <div class="col-sm-5">
+                <div class="pseudo-row">
+                    <div class="main-title">
+                      <strong>Voting Days</strong>
+                    </div>
+                    <div class="main-text">
+                      02/29/2014 - 9AM to 5PM<br />
+                      02/30/2014 - 9AM to 5PM<br />
+                      02/31/2014 - 9AM to 5PM<br />
+                      <a href="#">Voting Instructions</a>
+                    </div>
+                    <div class="main-title">
+                      <strong>Live Debate Feed/Recording</strong>
+                    </div>
+                    <div class="main-video">
+                      <div class="video-container main-video-container" id="video-1">
+                        <iframe src="http://www.youtube.com/embed/HRIF4_WzU1w" frameborder="0" allowfullscreen></iframe>
+                      </div>
+                      <div style="margin:5px 0 0 0;font-size:14px;">
+                        <a href="#">Show all videos (24)</a>
+                      </div>
+                    </div>
+                </div><!-- /.pseudo-row -->
+              </div><!-- /.col-sm-5 -->
+              <div class="clear-both">
               </div>
-            </div><!-- /.col-sm-5 -->
-            <div class="clear-both">
-            </div>
+            </div><!-- /.main-body -->
           </div><!-- /.gray-container -->
         </div><!-- /.row -->
         <div class="row">
@@ -271,7 +285,6 @@
           </div>
         </div><!-- /.row -->
         <div class="row">
-          <div class="border-dashed-right-left">
           <div class="main-sorting">
             <div class="btn-group">
               <a class="dropdown-toggle" data-toggle="dropdown">
@@ -286,7 +299,6 @@
               </ul>
             </div><!-- /.btn-group -->
           </div><!-- /.main-sorting -->
-          </div><!-- /.border-dashed-right-left -->
         </div><!-- /.row -->
         <div class="row">
           <div class="main-level-1-first">
@@ -297,134 +309,142 @@
           </div>
           <div class="main-level-3">
             <a href="candidate/sojourner-truth.html">
-              <div class="main-level-3-right">
-                <table border="0">
-                  <tr>
-                    <td>Questions:</td>
-                    <td>2</td>
-                  </tr>
-                  <tr>
-                    <td>Answers:</td>
-                    <td>5</td>
-                  </tr>
-                  <tr>
-                    <td>Comments:</td>
-                    <td>4</td>
-                  </tr>
-                </table>
-              </div>
-              <div class="main-level-3-profile-picture">
-                <img src="../../img/ppl/sojournertruth.jpg" />
-              </div>
-              <div class="main-level-3-text">
-                <div class="main-level-3-text-name">
-                  Sojourner Truth
+              <div class="main-level-3-inside">
+                <div class="main-level-3-right hidden-xs visible-sm visible-md visible-lg">
+                  <table border="0">
+                    <tr>
+                      <td>Questions:</td>
+                      <td>2</td>
+                    </tr>
+                    <tr>
+                      <td>Answers:</td>
+                      <td>5</td>
+                    </tr>
+                    <tr>
+                      <td>Comments:</td>
+                      <td>4</td>
+                    </tr>
+                  </table>
                 </div>
-                <div class="main-level-3-text-goals">
-                  Goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis venenatis, lectus sed varius consectetur, nisl elit viverra nunc, quis mattis...
+                <div class="main-level-3-profile-picture">
+                  <img src="../../img/ppl/sojournertruth.jpg" />
                 </div>
-              </div><!-- /.main-level-3-text -->
-              <div class="clear-both">
-              </div>
+                <div class="main-level-3-text">
+                  <div class="main-level-3-text-name">
+                    Sojourner Truth
+                  </div>
+                  <div class="main-level-3-text-goals">
+                    Goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis venenatis, lectus sed varius consectetur adipiscing...
+                  </div>
+                </div><!-- /.main-level-3-text -->
+                <div class="clear-both">
+                </div>
+              </div><!-- /.main-level-3-inside -->
             </a>
           </div><!-- /.main-level-3 -->
           <div class="main-level-3">
             <a href="candidate/abraham-lincoln.html">
-              <div class="main-level-3-right">
-                <table border="0">
-                  <tr>
-                    <td>Questions:</td>
-                    <td>2</td>
-                  </tr>
-                  <tr>
-                    <td>Answers:</td>
-                    <td>5</td>
-                  </tr>
-                  <tr>
-                    <td>Comments:</td>
-                    <td>4</td>
-                  </tr>
-                </table>
-              </div>
-              <div class="main-level-3-profile-picture">
-                <img src="../../img/ppl/abrahamlincoln.jpg" />
-              </div>
-              <div class="main-level-3-text">
-                <div class="main-level-3-text-name">
-                  Abraham Lincoln
+              <div class="main-level-3-inside">
+                <div class="main-level-3-right hidden-xs visible-sm visible-md visible-lg">
+                  <table border="0">
+                    <tr>
+                      <td>Questions:</td>
+                      <td>2</td>
+                    </tr>
+                    <tr>
+                      <td>Answers:</td>
+                      <td>5</td>
+                    </tr>
+                    <tr>
+                      <td>Comments:</td>
+                      <td>4</td>
+                    </tr>
+                  </table>
                 </div>
-                <div class="main-level-3-text-goals">
-                  Goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis venenatis, lectus sed varius consectetur, nisl elit viverra nunc, quis mattis...
+                <div class="main-level-3-profile-picture">
+                  <img src="../../img/ppl/abrahamlincoln.jpg" />
                 </div>
-              </div><!-- /.main-level-3-text -->
-              <div class="clear-both">
-              </div>
+                <div class="main-level-3-text">
+                  <div class="main-level-3-text-name">
+                    Abraham Lincoln
+                  </div>
+                  <div class="main-level-3-text-goals">
+                    Goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis venenatis, lectus sed varius consectetur adipiscing...
+                  </div>
+                </div><!-- /.main-level-3-text -->
+                <div class="clear-both">
+                </div>
+              </div><!-- /.main-level-3-inside -->
             </a>
           </div><!-- /.main-level-3 -->
           <div class="main-level-3">
             <a href="candidate/jane-addams.html">
-              <div class="main-level-3-right">
-                <table border="0">
-                  <tr>
-                    <td>Questions:</td>
-                    <td>2</td>
-                  </tr>
-                  <tr>
-                    <td>Answers:</td>
-                    <td>5</td>
-                  </tr>
-                  <tr>
-                    <td>Comments:</td>
-                    <td>4</td>
-                  </tr>
-                </table>
-              </div>
-              <div class="main-level-3-profile-picture">
-                <img src="../../img/ppl/janeaddams.jpg" />
-              </div>
-              <div class="main-level-3-text">
-                <div class="main-level-3-text-name">
-                  Jane Addams
+              <div class="main-level-3-inside">
+                <div class="main-level-3-right hidden-xs visible-sm visible-md visible-lg">
+                  <table border="0">
+                    <tr>
+                      <td>Questions:</td>
+                      <td>2</td>
+                    </tr>
+                    <tr>
+                      <td>Answers:</td>
+                      <td>5</td>
+                    </tr>
+                    <tr>
+                      <td>Comments:</td>
+                      <td>4</td>
+                    </tr>
+                  </table>
                 </div>
-                <div class="main-level-3-text-goals">
-                  Goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis venenatis, lectus sed varius consectetur, nisl elit viverra nunc, quis mattis...
+                <div class="main-level-3-profile-picture">
+                  <img src="../../img/ppl/janeaddams.jpg" />
                 </div>
-              </div><!-- /.main-level-3-text -->
-              <div class="clear-both">
-              </div>
+                <div class="main-level-3-text">
+                  <div class="main-level-3-text-name">
+                    Jane Addams
+                  </div>
+                  <div class="main-level-3-text-goals">
+                    Goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis venenatis, lectus sed varius consectetur adipiscing...
+                  </div>
+                </div><!-- /.main-level-3-text -->
+                <div class="clear-both">
+                </div>
+              </div><!-- /.main-level-3-inside -->
             </a>
           </div><!-- /.main-level-3 -->
           <div class="main-level-3-last">
             <a href="candidate/frederick-douglass.html">
-              <div class="main-level-3-right">
-                <table border="0">
-                  <tr>
-                    <td>Questions:</td>
-                    <td>2</td>
-                  </tr>
-                  <tr>
-                    <td>Answers:</td>
-                    <td>5</td>
-                  </tr>
-                  <tr>
-                    <td>Comments:</td>
-                    <td>4</td>
-                  </tr>
-                </table>
-              </div>
-              <div class="main-level-3-profile-picture">
-                <img src="../../img/ppl/frederickdouglass.jpg" />
-              </div>
-              <div class="main-level-3-text">
-                <div class="main-level-3-text-name">
-                  Frederick Douglass
+              <div class="main-level-3-inside">
+                <div class="main-level-3-right hidden-xs visible-sm visible-md visible-lg">
+                  <table border="0">
+                    <tr>
+                      <td>Questions:</td>
+                      <td>2</td>
+                    </tr>
+                    <tr>
+                      <td>Answers:</td>
+                      <td>5</td>
+                    </tr>
+                    <tr>
+                      <td>Comments:</td>
+                      <td>4</td>
+                    </tr>
+                  </table>
                 </div>
-                <div class="main-level-3-text-goals">
-                  Goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis venenatis, lectus sed varius consectetur, nisl elit viverra nunc, quis mattis...
+                <div class="main-level-3-profile-picture">
+                  <img src="../../img/ppl/frederickdouglass.jpg" />
                 </div>
-              </div><!-- /.main-level-3-text -->
-              <div class="clear-both">
-              </div>
+                <div class="main-level-3-text">
+                  <div class="main-level-3-text-name">
+                    Frederick Douglass
+                  </div>
+                  <div class="main-level-3-text-goals">
+                    Goals: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis venenatis, lectus sed varius consectetur adipiscing...
+                  </div>
+                </div><!-- /.main-level-3-text -->
+                <div class="clear-both">
+                </div>
+              </div><!-- /.main-level-3-inside -->
             </a>
           </div><!-- /.main-level-3 -->
 
@@ -448,14 +468,23 @@
       <div class="col-md-3">
         <div class="row">
           <div class="side">
-            <div class="side-bar" id="side-bar-recent-activity">
-              <div class="side-bar-recent-activity-header" id="side-bar-recent-activity-header">
-                Recent Activity
+            <div class="side-bar">
+              <div class="side-bar-header">
                 <div class="side-bar-icon">
                   <i class="fa fa-coffee"></i>
                 </div>
-              </div><!-- /.side-bar-header #side-bar-recent-activity-header -->
-              <div class="side-bar-feed" id="side-bar-recent-activity-feed">
+                <div class="btn-group">
+                  <div class="side-bar-dropdown dropdown-toggle" data-toggle="dropdown">
+                    Recent Activity <span class="caret"></span> &nbsp
+                  </div>
+                  <ul class="side-bar-dropdown-menu dropdown-menu" role="menu">
+                    <li><a href="#">Announcements</a></li>
+                    <li><a href="#">Candidates (18)</a></li>
+                    <li><a href="#">Officers (12)</a></li>
+                  </ul>
+                </div><!-- /.btn-group -->
+              </div><!-- /.side-bar-header -->
+              <div class="side-bar-feed">
                 <div class="side-bar-feed-item">
                   <div class="side-bar-feed-item-profile-picture">
                     <img src="../../img/university_logos/saint_xavier_university_logo.gif" />
@@ -504,25 +533,6 @@
                     hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
                   </div>
                 </div><!-- /.side-bar-feed-item -->
-              </div><!-- /.side-bar-feed #side-bar-recent-activity-feed -->
-            </div><!-- /.side-bar #side-bar-recent-activity -->
-            <script>
-              $( "#side-bar-recent-activity-header" ).click(function () {
-                if ( $( "#side-bar-recent-activity-feed:first" ).is( ":hidden" ) ) {
-                  $( "#side-bar-recent-activity-feed" ).slideDown( "150" );
-                } else {
-                  $( "#side-bar-recent-activity-feed" ).slideUp( "150" );
-                }
-              });
-            </script>
-            <div class="side-bar" id="side-bar-announcements">
-              <div class="side-bar-header" id="side-bar-announcements-header">
-                Announcements
-                <div class="side-bar-icon">
-                  <i class="fa fa-bullhorn"></i>
-                </div>
-              </div><!-- /.side-bar-header #side-bar-announcements-header -->
-              <div class="side-bar-feed" id="side-bar-announcements-feed">
                 <div class="side-bar-feed-item">
                   <div class="side-bar-feed-item-profile-picture">
                     <img src="../../img/university_logos/saint_xavier_university_logo.gif" />
@@ -531,161 +541,8 @@
                     hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
                   </div>
                 </div><!-- /.side-bar-feed-item -->
-                <div class="side-bar-feed-item">
-                  <div class="side-bar-feed-item-profile-picture">
-                    <img src="../../img/university_logos/saint_xavier_university_logo.gif" />
-                  </div>
-                  <div class="side-bar-feed-item-text">
-                    hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
-                  </div>
-                </div><!-- /.side-bar-feed-item -->
-                <div class="side-bar-feed-item">
-                  <div class="side-bar-feed-item-profile-picture">
-                    <img src="../../img/university_logos/saint_xavier_university_logo.gif" />
-                  </div>
-                  <div class="side-bar-feed-item-text">
-                    hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
-                  </div>
-                </div><!-- /.side-bar-feed-item -->
-                <div class="side-bar-feed-item">
-                  <div class="side-bar-feed-item-profile-picture">
-                    <img src="../../img/university_logos/saint_xavier_university_logo.gif" />
-                  </div>
-                  <div class="side-bar-feed-item-text">
-                    hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
-                  </div>
-                </div><!-- /.side-bar-feed-item -->
-                <div class="side-bar-feed-item">
-                  <div class="side-bar-feed-item-profile-picture">
-                    <img src="../../img/university_logos/saint_xavier_university_logo.gif" />
-                  </div>
-                  <div class="side-bar-feed-item-text">
-                    hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
-                  </div>
-                </div><!-- /.side-bar-feed-item -->
-                <div class="side-bar-feed-item">
-                  <div class="side-bar-feed-item-profile-picture">
-                    <img src="../../img/university_logos/saint_xavier_university_logo.gif" />
-                  </div>
-                  <div class="side-bar-feed-item-text">
-                    hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
-                  </div>
-                </div><!-- /.side-bar-feed-item -->
-              </div><!-- /.side-bar-feed #side-bar-announcements-feed -->
-            </div><!-- /.side-bar #side-bar-announcements -->
-            <script>
-              $( "#side-bar-announcements-header" ).click(function () {
-                if ( $( "#side-bar-announcements-feed:first" ).is( ":hidden" ) ) {
-                  $( "#side-bar-announcements-feed" ).slideDown( "150" );
-                } else {
-                  $( "#side-bar-announcements-feed" ).slideUp( "150" );
-                }
-              });
-            </script>
-            <div class="side-bar" id="side-bar-candidates">
-              <div class="side-bar-header" id="side-bar-candidates-header">
-                Candidates (18)
-                <div class="side-bar-icon">
-                  <i class="fa fa-list-ul"></i>
-                </div>
-              </div><!-- /.side-bar-header #side-bar-candidates-header -->
-              <div class="side-bar-feed" id="side-bar-candidates-feed">
-                <div class="side-bar-feed-level-1-first">
-                  <i class="fa fa-caret-down"></i> Executive Branch (10)
-                </div><!-- /.side-bar-feed-level-1-first -->
-                <div class="side-bar-feed-level-2">
-                  <i class="fa fa-caret-down"></i> President (4)
-                </div>
-                <div class="side-bar-feed-level-3">
-                  Sojourner Truth
-                </div>
-                <div class="side-bar-feed-level-3">
-                  Abraham Lincoln
-                </div>
-                <div class="side-bar-feed-level-3">
-                  Jane Addams
-                </div>
-                <div class="side-bar-feed-level-3">
-                  Frederick Douglass
-                </div>
-                <div class="side-bar-feed-level-2">
-                  <i class="fa fa-caret-down"></i> Vice-President (2)
-                </div>
-                <div class="side-bar-feed-level-2">
-                  <i class="fa fa-caret-down"></i> Treasurer (2)
-                </div>
-                <div class="side-bar-feed-level-2">
-                  <i class="fa fa-caret-down"></i> Secretary (2)
-                </div>
-                <div class="side-bar-feed-level-1">
-                  <i class="fa fa-caret-right"></i> Legislative Branch (8)
-                </div><!-- /.side-bar-feed-level-1 -->
-                <div class="side-bar-feed-level-1">
-                  <i class="fa fa-caret-right"></i> Judicial Branch (0)
-                </div><!-- /.side-bar-feed-level-1 -->
-              </div><!-- /.side-bar-feed #side-bar-candidates-feed -->
-            </div><!-- /.side-bar #side-bar-candidates -->
-            <script>
-              $( "#side-bar-candidates-header" ).click(function () {
-                if ( $( "#side-bar-candidates-feed:first" ).is( ":hidden" ) ) {
-                  $( "#side-bar-candidates-feed" ).slideDown( "150" );
-                } else {
-                  $( "#side-bar-candidates-feed" ).slideUp( "150" );
-                }
-              });
-            </script>
-            <div class="side-bar" id="side-bar-officers">
-              <div class="side-bar-officers-header" id="side-bar-officers-header">
-                Officers (12)
-                <div class="side-bar-icon-officers">
-                  <i class="fa fa-shield"></i>
-                </div>
-              </div><!-- /.side-bar-officers-header #side-bar-officers-header -->
-              <div class="side-bar-officers-feed" id="side-bar-officers-feed">
-                <div class="side-bar-feed-level-1-first">
-                  <i class="fa fa-caret-down"></i> Executive Branch (4)
-                </div><!-- /.side-bar-feed-level-1 -->
-                <div class="side-bar-feed-level-2">
-                  &nbsp President
-                </div>
-                <div class="side-bar-feed-level-3">
-                  Buckminster Fuller
-                </div>
-                <div class="side-bar-feed-level-2">
-                  &nbsp Vice-President
-                </div>
-                <div class="side-bar-feed-level-3">
-                  Sojourner Truth
-                </div>
-                <div class="side-bar-feed-level-2">
-                  &nbsp Treasurer
-                </div>
-                <div class="side-bar-feed-level-3">
-                  Susan B. Anthony
-                </div>
-                <div class="side-bar-feed-level-2">
-                  &nbsp Secretary
-                </div>
-                <div class="side-bar-feed-level-3">
-                  Thomas Paine
-                </div>
-                <div class="side-bar-feed-level-1">
-                  <i class="fa fa-caret-right"></i> Legislative Branch (5)
-                </div><!-- /.side-bar-feed-level-1 -->
-                <div class="side-bar-feed-level-1">
-                  <i class="fa fa-caret-right"></i> Judicial Branch (5)
-                </div><!-- /.side-bar-feed-level-1 -->
-              </div><!-- /.side-bar-feed #side-bar-officers-feed -->
-            </div><!-- /.side-bar #side-bar-officers -->
-            <script>
-              $( "#side-bar-officers-header" ).click(function () {
-                if ( $( "#side-bar-officers-feed:first" ).is( ":hidden" ) ) {
-                  $( "#side-bar-officers-feed" ).slideDown( "150" );
-                } else {
-                  $( "#side-bar-officers-feed" ).slideUp( "150" );
-                }
-              });
-            </script>
+              </div><!-- /.side-bar-feed -->
+            </div><!-- /.side-bar -->
             <div class="side-bar" id="side-bar-mod-controls">
               <div class="side-bar-mod-controls-header" id="side-bar-mod-controls-header">
                 Mod Controls
@@ -744,9 +601,9 @@
             <script>
               $( "#side-bar-mod-controls-header" ).click(function () {
                 if ( $( "#side-bar-mod-controls-feed:first" ).is( ":hidden" ) ) {
-                  $( "#side-bar-mod-controls-feed" ).slideDown( "150" );
+                  $( "#side-bar-mod-controls-feed" ).toggle( );
                 } else {
-                  $( "#side-bar-mod-controls-feed" ).slideUp( "150" );
+                  $( "#side-bar-mod-controls-feed" ).toggle( );
                 }
               });
             </script>
@@ -775,7 +632,7 @@
           <a href="#">about</a>
         </div>
         <div class="ev-footer-button">
-          <a href="https://github.com/everyvote/everyvote_townhall">free/open source</a>
+          <a href="https://github.com/everyvote/everyvote">free/open source</a>
         </div>
       </div><!-- /.ev-footer-inside -->
   </div><!-- /.col-lg-10 col-lg-offset-1 -->
