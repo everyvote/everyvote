@@ -1,6 +1,6 @@
 body {
-
-    background-color:#d8d5d5;
+    color:#222;
+    background-color:#e4e2e2;
     font-family:'Droid Sans', sans-serif;
     font-size:16px;
 }
@@ -323,7 +323,7 @@ body {
     display:inline-block;
     padding:5px 10px 10px 10px;
     background-color:#fcfcfc;
-    color:#333;
+    color:#222;
     border-top-right-radius:5px;
     border-top-left-radius:5px;
 }
@@ -355,11 +355,11 @@ body {
     font-size:14px;
     padding:7px 22px;
     margin:0 0 10px 0;
-    border-bottom:1px solid #ddd;
+    border-bottom:1px solid #ccc;
 }
 
 .main-sorting a {
-    color:#333;
+    color:#222;
     cursor:pointer;
 }
 
@@ -393,7 +393,7 @@ body {
 }
 
 .home-bar-dropdown a {
-    color:#333;
+    color:#222;
     cursor:pointer;
 }
 
@@ -449,12 +449,12 @@ body {
 
 .main-page-nav-bottom {
     padding:20px 20px 0 20px;
-    border-top:1px solid #ddd;
+    border-top:1px solid #ccc;
 }
 
 .main-page-nav-home {
     padding:20px 20px 0 20px;
-    border-top:1px solid #ddd;
+    border-top:1px solid #ccc;
 }
 
 .main-page-nav-prev {
@@ -528,13 +528,13 @@ body {
     clear:both;
     padding:10px 20px;
     margin:0 0 0 40px;
-    border-bottom:1px dashed #ddd;
+    border-bottom:1px dashed #ccc;
     border-left:1px solid #aaa;
     border-right:1px solid #aaa;
 }
 
 .main-level-3 a {
-    color:#333;
+    color:#222;
 }
 
 .main-level-3-inside {
@@ -550,7 +550,7 @@ body {
 }
 
 .main-level-3-last a {
-    color:#333;
+    color:#222;
 }
 
 .main-level-3-right {
@@ -558,7 +558,7 @@ body {
     font-size:12px;
     padding:0 0 0 10px;
     margin:5px 0 0 0;
-    border-left:1px dotted #ddd;
+    border-left:1px dotted #ccc;
 }
 
 .main-level-3-profile-picture {
@@ -781,7 +781,7 @@ body {
 
 .main-calendar-event {
     padding:10px 0;
-    border-top:1px dashed #ddd;
+    border-top:1px dashed #ccc;
     max-width:600px;
 }
 
@@ -825,7 +825,7 @@ body {
 .main-profile-nav-bottom {
     padding:15px 0 10px 0;
     margin:0 10px -10px 0;
-    border-top:1px solid #ddd;
+    border-top:1px solid #ccc;
 }
 
 .main-profile-nav-prev {
@@ -864,7 +864,7 @@ body {
 }
 
 .main-profile-nav-election a {
-    color:#333;
+    color:#222;
 }
 
 .main-profile-body {
