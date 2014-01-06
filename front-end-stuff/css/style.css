@@ -42,7 +42,7 @@ body {
 .ev-breadcrumb {
     padding:4px 0 6px 20px;
     color:#e8e8e8;
-    background-color:#555;
+    background-color:#444;
     font-size:14px;
     font-family:'Sanchez', serif;
     box-shadow:0 1px 1px #999;
@@ -59,13 +59,13 @@ body {
 
 .ev-container {
     max-width:1050px;
-    margin:20px auto;
+    margin:20px auto 40px auto;
     border-radius:5px;
 }
 
 .ev-container-home {
-    max-width:760px;
-    margin:20px auto;
+    max-width:1050px;
+    margin:20px auto 40px auto;
     background-color:#fcfcfc;
     border:1px solid #aaa;
     border-radius:5px;
@@ -75,8 +75,6 @@ body {
     max-width:760px;
     padding:20px 10px;
     margin:0 auto;
-    border-right:1px dashed #ddd;
-    border-left:1px dashed #ddd;
 }
 
 .home-tagline {
@@ -106,19 +104,19 @@ body {
 
 @media (max-width: 991px) {
     .main {
-    background-color:#fcfcfc;
-    margin:-15px 0 20px 0;
-    padding-right:25px;
-    padding-bottom:20px;
-    padding-left:25px;
+        background-color:#fcfcfc;
+        margin:-15px 0 20px 0;
+        padding-right:30px;
+        padding-bottom:20px;
+        padding-left:30px;
     }
 }
 
 @media (min-width:992px) {
     .main {
         background-color:#fcfcfc;
-        padding-right:35px;
-        padding-left:35px;
+        padding-right:40px;
+        padding-left:40px;
         padding-bottom:20px;
         padding-top:5px;
         border:1px solid #aaa;
@@ -127,7 +125,7 @@ body {
 }
 
 .main-header {
-    padding:25px 10px 20px 0;
+    padding:25px 0 20px 0;
 }
 
 .main-header-logo {
@@ -137,7 +135,17 @@ body {
 }
 
 .main-header-logo img {
-    max-height:75px;
+    max-height:100px;
+}
+
+.main-header-logo-xs {
+    float:left;
+    margin:-10px 0 10px 0;
+}
+
+.main-header-logo-xs img {
+    height:130px;
+    width:130px;
 }
 
 .main-header-top {
@@ -153,6 +161,13 @@ body {
     font-size:22px;
     margin:-10px 0 0 0;
     display:inline-block;
+    font-weight:bold;
+}
+
+.main-header-top-name-xs {
+    clear:both;
+    font-size:26px;
+    font-weight:bold;
 }
 
 .main-header-top-button {
@@ -171,10 +186,15 @@ body {
 }
 
 .main-header-bottom {
-    margin:15px 0 0 0;
+    margin:35px 0 0 0;
 }
 
 .main-header-bottom a {
+    color:#fafafa;
+    text-decoration:none;
+}
+
+.main-header-bottom-xs a {
     color:#fafafa;
     text-decoration:none;
 }
@@ -189,8 +209,27 @@ body {
     margin:-4px 5px 0 0;
 }
 
+.main-header-bottom-social-xs {
+    margin:10px 0 0 0;
+}
+
+.main-header-bottom-social-icon-xs {
+    display:inline-block;
+    font-size:26px;
+    margin:0 10px 0 0;
+}
+
 .main-header-bottom-buttons {
     padding:0;
+}
+
+.main-header-buttons-xs {
+
+}
+
+.main-header-buttons-xs a {
+    color:#fafafa;
+    text-decoration:none;
 }
 
 .main-header-bottom-button {
@@ -214,30 +253,25 @@ body {
     border-radius:10px;
 }
 
-.main-header-bottom-button-xs {
+.main-header-button-xs {
     float:right;
-    padding:3px 0;
-    margin:0 0 5px 7px;
-    width:60px;
-    text-align:center;
+    clear:right;
+    margin:0 0 10px 5px;
+    padding:7px 0 7px 20px;
+    width:90px;
     font-size:14px;
     box-shadow:0 1px 1px 1px #aaa;
     border-radius:10px;
 }
 
-.main-header-bottom-button-last-xs {
+.main-header-button-first-xs {
     float:right;
-    padding:3px 0;
-    width:60px;
-    margin:0 0 5px 0;
-    text-align:center;
+    width:90px;
+    margin:0 0 10px 0;
+    padding:7px 0 7px 20px;
     font-size:14px;
     box-shadow:0 1px 1px 1px #aaa;
     border-radius:10px;
-}
-
-.main-header-social {
-    margin:10px 0 0 0;
 }
 
 .main-header-social-icon {
@@ -261,9 +295,9 @@ body {
 
 .main-tabs {
     background-color:#555;
-    font-size:18px;
+    font-size:16px;
     margin:0 0 10px 0;
-    padding:0 0 0 10px;
+    padding:0 0 0 5px;
 }
 
 @media (max-width:768px) {
@@ -300,6 +334,7 @@ body {
     padding:5px 20px;
     border:1px solid #aaa;
     font-size:20px;
+    font-weight:bold;
 }
 
 .main-bar-input-icon-search {
@@ -309,6 +344,7 @@ body {
 .main-bar-dropdown {
     font-size:19px;
     cursor:pointer;
+    font-weight:bold;
 }
 
 .main-bar-dropdown-menu {
@@ -317,7 +353,9 @@ body {
 
 .main-sorting {
     font-size:14px;
-    padding:10px 22px;
+    padding:7px 22px;
+    margin:0 0 10px 0;
+    border-bottom:1px solid #ddd;
 }
 
 .main-sorting a {
@@ -361,9 +399,9 @@ body {
 
 .main-group {
     clear:left;
-    padding:15px 20px;
+    padding:10px 20px;
+    margin:10px 0;
     cursor:pointer;
-    border-top:1px solid #ddd;
 }
 
 .main-group-inside {
@@ -391,6 +429,7 @@ body {
 .main-group-text-name {
     font-size:18px;
     margin:3px 0 5px 0;
+    font-weight:bold;
 }
 
 .main-group-text-next-election {
@@ -400,8 +439,7 @@ body {
 .main-group-right {
     float:right;
     font-size:12px;
-    padding:0 0 0 10px;
-    border-left:1px dotted #ddd;
+    padding:2px 0 0;
 }
 
 .main-page-nav {
@@ -446,6 +484,7 @@ body {
     margin:-1px 0 0 0;
     background-color:#e5e5e5;
     border:1px solid #aaa;
+    font-weight:bold;
 }
 
 .main-level-1-first {
@@ -453,6 +492,7 @@ body {
     padding:5px 20px;
     background-color:#e5e5e5;
     border:1px solid #aaa;
+    font-weight:bold;
 }
 
 .main-level-1-last {
@@ -461,6 +501,7 @@ body {
     margin:-1px 0 0 0;
     background-color:#e5e5e5;
     border:1px solid #aaa;
+    font-weight:bold;
 }
 
 .main-level-2 {
@@ -469,6 +510,7 @@ body {
     padding:5px 20px 5px 20px;
     margin:-1px 0 0 20px;
     border:1px solid #aaa;
+    font-weight:bold;
 }
 
 .main-level-2-first {
@@ -479,11 +521,12 @@ body {
     border-right:1px solid #aaa;
     border-bottom:1px solid #aaa;
     border-left:1px solid #aaa;
+    font-weight:bold;
 }
 
 .main-level-3 {
     clear:both;
-    padding:15px 20px 15px 20px;
+    padding:10px 20px;
     margin:0 0 0 40px;
     border-bottom:1px dashed #ddd;
     border-left:1px solid #aaa;
@@ -534,8 +577,8 @@ body {
 }
 
 .main-level-3-text-name {
-    font-size:18px;
-    margin:-2px 0 0 0;
+    font-size:16px;
+    font-weight:bold;
 }
 
 .main-level-3-text-goals {
@@ -581,10 +624,11 @@ body {
 
 .main-questions-level-1-text {
     overflow:hidden;
+    max-width:500px;
 }
 
 .main-questions-level-1-text-question {
-    font-size:20px;
+    font-size:18px;
 }
 
 .main-questions-level-1-text-bottom {
@@ -655,6 +699,7 @@ body {
 .main-questions-level-2-text {
     overflow:hidden;
     font-size:14px;
+    max-width:500px;
 }
 
 .main-questions-level-2-text-bottom {
@@ -716,6 +761,7 @@ body {
 .main-questions-level-3-text {
     overflow:hidden;
     font-size:14px;
+    max-width:500px;
 }
 
 .main-questions-level-3-text-comment {
@@ -736,10 +782,12 @@ body {
 .main-calendar-event {
     padding:10px 0;
     border-top:1px dashed #ddd;
+    max-width:600px;
 }
 
 .main-calendar-event-first {
     padding:10px 0;
+    max-width:600px;
 }
 
 .main-calendar-event-title {
@@ -764,10 +812,14 @@ body {
 .main-profile {
 }
 
+@media (max-width: 768px) {
+    .main-profile {
+        margin:0 -10px;
+    }
+}
+
 .main-profile-nav {
-    padding:5px 0;
-    border:1px solid #aaa;
-    background-color:#ffffca;
+    font-weight:bold;
 }
 
 .main-profile-nav-bottom {
@@ -778,18 +830,37 @@ body {
 
 .main-profile-nav-prev {
     float:right;
-    margin:3px 20px 0 10px;
+    margin:0 20px 0 10px;
+    font-size:16px;
+    font-weight:normal;
+}
+
+.main-profile-nav-prev-xs {
+    clear:left;
+    float:left;
+    margin:5px 20px 0 20px;
+    font-size:16px;
+    font-weight:normal;
 }
 
 .main-profile-nav-next {
     float:right;
-    margin:3px 20px 0 20px;
+    margin:0 20px 0 20px;
+    font-size:16px;
+    font-weight:normal;
+}
+
+.main-profile-nav-next-xs {
+    float:right;
+    margin:5px 20px 0 20px;
+    font-size:16px;
+    font-weight:normal;
 }
 
 .main-profile-nav-election {
     float:left;
-    font-size:19px;
-    margin:0 0 0 20px;
+    font-size:18px;
+    padding:0 0 0 20px;
 }
 
 .main-profile-nav-election a {
@@ -804,30 +875,32 @@ body {
 }
 
 .main-profile-body-left-profile-picture {
-    margin:0 0 20px 2px;
+    margin:0 0 20px 20px;
     border:1px solid #aaa;
+    border-radius:5px;
 }
 
 .main-profile-body-left-profile-picture img {
-
 }
 
 .main-profile-body-left-title {
-    margin:0 0 5px 2px;
+    margin:0 0 5px 20px;
     font-size:16px;
 }
 
 .main-profile-body-left-video {
-    margin:0 0 10px 2px;
+    margin:0 0 10px 20px;
 }
 
 .main-profile-body-profile-picture-xs {
     float:left;
+    border-radius:5px;
 }
 
 .main-profile-body-profile-picture-xs img {
     height:120px;
     width:120px;
+    border-radius:5px;
 }
 
 .main-profile-body-social {
@@ -857,10 +930,11 @@ body {
     font-size:22px;
     overflow:hidden;
     float:left;
+    margin:-5px 0 0 0;
 }
 
 .padding-left {
-    padding-left:30px;
+    padding-left:20px;
 }
 
 .main-profile hr {
@@ -868,19 +942,18 @@ body {
 }
 
 .main-profile-body-running-for {
-    margin:-2px 0 0 0;
     font-size:20px;
 }
 
 .main-profile-body-name-xs {
     clear:both;
     padding:10px 20px 0 0;
-    font-size:20px;
+    font-size:22px;
 }
 
 .main-profile-body-name-sub {
-    font-size:15px;
-    margin:0 0 10px 0;
+    font-size:16px;
+    margin:4px 0 10px 0;
 }
 
 .main-profile-body-title {
@@ -893,7 +966,7 @@ body {
 
 .main-profile-body-text {
     font-size:15px;
-    margin:0 20px 0 30px;
+    margin:0 20px 0 10px;
 }
 
 .main-profile-body-text-q {
@@ -924,7 +997,7 @@ body {
 }
 
 .main-body {
-    padding:20px 0;
+    padding:20px 0 0 0;
 }
 
 .main-image {
@@ -933,12 +1006,12 @@ body {
 
 .main-title {
     font-size:16px;
-    padding:0 20px 5px 20px;
+    padding:0 20px 0 20px;
 }
 
 .main-text {
     font-size:14px;
-    padding:0 20px 20px 30px; 
+    padding:0 20px 20px 20px; 
 }
 
 @media (max-width:991px) {
@@ -958,24 +1031,24 @@ body {
 }
 
 .side-bar-dropdown {
-    font-size:18px;
+    font-size:16px;
     cursor:pointer;
     display:inline-block;
     float:left;
 }
 
 .side-bar-dropdown-menu {
-    font-size:18px;
+    font-size:16px;
 }
 
 .side-bar-icon {
     float:right;
-    font-size:18px;
+    font-size:17px;
 }
 
 .side-bar-header {
     background-color:#f7f7f7;
-    font-size:18px;
+    font-size:16px;
     padding:5px 10px;
     border:1px solid #aaa;
     cursor:pointer;
@@ -1043,7 +1116,7 @@ body {
 
 .side-bar-mod-controls-header {
     background-color:#f7f7f7;
-    font-size:18px;
+    font-size:16px;
     padding:5px 10px;
     margin:20px 0 0 0;
     border:1px solid #aaa;
@@ -1073,7 +1146,7 @@ body {
 
 @media (max-width: 991px) {
     .side-bar-mod-controls-feed-button {
-    padding:7px 15px;
+    padding:5px 15px;
     margin:7px auto;
     font-size:14px;
     border-radius:5px;
@@ -1084,7 +1157,7 @@ body {
 
 @media (min-width:992px) {
     .side-bar-mod-controls-feed-button {
-    padding:7px 15px;
+    padding:5px 15px;
     margin:7px 10px;
     font-size:14px;
     border-radius:5px;
