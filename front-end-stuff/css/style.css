@@ -819,48 +819,48 @@ body {
 }
 
 .main-profile-nav {
-    font-weight:bold;
+    margin:5px 0 0 0;
 }
 
 .main-profile-nav-bottom {
-    padding:15px 0 10px 0;
-    margin:0 10px -10px 0;
+    padding:5px 0 0 0;
+    margin:0 10px 0px 0;
     border-top:1px solid #ccc;
 }
 
 .main-profile-nav-prev {
     float:right;
     margin:0 20px 0 10px;
-    font-size:16px;
+    font-size:15px;
     font-weight:normal;
 }
 
 .main-profile-nav-prev-xs {
     clear:left;
     float:left;
-    margin:5px 20px 0 20px;
-    font-size:16px;
+    margin:10px 20px 0 10px;
+    font-size:15px;
     font-weight:normal;
 }
 
 .main-profile-nav-next {
     float:right;
-    margin:0 20px 0 20px;
-    font-size:16px;
+    margin:0 10px 0 20px;
+    font-size:15px;
     font-weight:normal;
 }
 
 .main-profile-nav-next-xs {
     float:right;
-    margin:5px 20px 0 20px;
-    font-size:16px;
+    margin:10px 10px 0 20px;
+    font-size:15px;
     font-weight:normal;
 }
 
 .main-profile-nav-election {
     float:left;
-    font-size:18px;
-    padding:0 0 0 20px;
+    font-size:16px;
+    padding:0 0 0 10px;
 }
 
 .main-profile-nav-election a {
@@ -875,7 +875,7 @@ body {
 }
 
 .main-profile-body-left-profile-picture {
-    margin:0 0 20px 20px;
+    margin:0 0 20px 10px;
     border:1px solid #aaa;
     border-radius:5px;
 }
@@ -884,12 +884,12 @@ body {
 }
 
 .main-profile-body-left-title {
-    margin:0 0 5px 20px;
+    margin:0 0 5px 10px;
     font-size:16px;
 }
 
 .main-profile-body-left-video {
-    margin:0 0 10px 20px;
+    margin:0 0 10px 10px;
 }
 
 .main-profile-body-profile-picture-xs {
@@ -933,12 +933,21 @@ body {
     margin:-5px 0 0 0;
 }
 
-.padding-left {
-    padding-left:20px;
+
+@media (max-width:768px) {
+    .padding-left {
+        padding-left:10px;
+    }
+}
+
+@media (min-width:769px) {
+    .padding-left {
+        padding-left:30px;
+    }
 }
 
 .main-profile hr {
-    margin:10px 20px 10px 0;
+    margin:10px 10px 10px 0;
 }
 
 .main-profile-body-running-for {
@@ -966,7 +975,8 @@ body {
 
 .main-profile-body-text {
     font-size:15px;
-    margin:0 20px 0 10px;
+    max-width:550px;
+    margin:0 10px 0 0;
 }
 
 .main-profile-body-text-q {
@@ -981,7 +991,7 @@ body {
 .main-profile-body-text-answer-icon {
     width:80px;
     float:right;
-    text-align:center;
+    text-align:right;
     font-size:16px;
 }
 
@@ -1011,7 +1021,8 @@ body {
 
 .main-text {
     font-size:14px;
-    padding:0 20px 20px 20px; 
+    padding:0 20px 20px 20px;
+    max-width:600px;
 }
 
 @media (max-width:991px) {
