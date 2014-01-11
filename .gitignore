@@ -3,6 +3,7 @@
 *.db
 settings.py
 #.json
+*.sqlite3
 
 
 #################

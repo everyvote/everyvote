@@ -9,4 +9,6 @@ urlpatterns = patterns('',
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^hello/$', 'everyvote_townhall.views.hello'),
+    url(r'^hello_template/$', 'everyvote_townhall.views.hello_template'),
 )
