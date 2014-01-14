@@ -1,0 +1,63 @@
+body {
+    font-family:'Roboto', Arial, sans-serif;
+    font-size:16px;
+}
+
+.ev-max-width {
+    max-width:1120px;
+    margin:0 auto;
+}
+
+.ev-clear {
+    clear:both;
+}
+
+.navbar {
+    margin:0;
+    border-radius:0;
+}
+
+.ev-breadcrumb {
+    padding:10px 0;
+    margin:0 0 10px 0;
+}
+
+.ev-md-left {
+    border-right:1px solid #ddd;
+}
+
+.ev-md-left-profile-picture {
+    width:140px;
+    height:140px;
+    margin:0 0 20px 0;
+    border:1px solid #bbb;
+    border-radius:5px;
+}
+
+.ev-md-left-profile-picture img {
+    width:134px;
+    height:134px;
+    margin:3px 0 0 3px;
+    
+
+}
+
+.ev-md-left-nav {
+    padding:0 0 10px 0;
+}
+
+.ev-md-left-nav a {
+    color:#333;
+}
+
+.ev-md-left-nav a:hover {
+    color:#777;
+}
+
+.ev-md-center {
+
+}
+
+.ev-md-right {
+
+}
