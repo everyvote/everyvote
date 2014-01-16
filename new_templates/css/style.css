@@ -43,7 +43,6 @@ body {
     height:120px;
     margin:0 10px 0 0;
     border:1px solid #ccc;
-    border-radius:5px;
 }
 
 .ev-breadcrumb-profile-picture img {
@@ -87,6 +86,10 @@ body {
     display:inline-block;
     margin:0 0 0 5px;
     font-size:22px;
+}
+
+.ev-breadcrumb-social-icon a {
+    color:#333;
 }
 
 .ev-left {
@@ -198,13 +201,13 @@ body {
 
 .ev-center-level-1-first {
     margin:0 0 15px 0;
-    border-bottom:1px dotted #ccc;
+    border-bottom:1px solid #ccc;
 }
 
 
 .ev-center-level-1 {
     margin:30px 0 15px 0;
-    border-bottom:1px dotted #ccc;
+    border-bottom:1px solid #ccc;
 }
 
 .ev-center-level-1-name {
@@ -231,14 +234,14 @@ body {
 
 @media (max-width:767px) {
     .ev-center-level-3 {
-        max-width:450px;
+        max-width:460px;
         margin:0 0 20px 20px;
     }
 }
 
 @media (min-width:768px) {
     .ev-center-level-3 {
-        max-width:450px;
+        max-width:460px;
         margin:0 0 20px 40px;
     }
 }
@@ -246,12 +249,13 @@ body {
 .ev-center-level-3-profile-picture {
     display:inline-block;
     float:left;
-    margin:0 10px 0 0;
+    margin:0 20px 0 0;
 }
 
 .ev-center-level-3-profile-picture img {
     width:50px;
     height:50px;
+    border-radius:5px;
 }
 
 .ev-center-level-3-box {
@@ -287,6 +291,10 @@ body {
     font-size:20px;
 }
 
+.ev-center-level-3-social-icon a {
+    color:#333;
+}
+
 .ev-right {
     margin:0 0 0 -15px;
 }
@@ -307,7 +315,7 @@ body {
     color:#eee;
 }
 
-.icon-homepage {
+/* .icon-homepage {
     color:#222;
 }
 
@@ -315,7 +323,7 @@ body {
     color:#555;
 }
 
-.icon-twitter {
+ .icon-twitter {
     color:#00aace;
 }
 
@@ -346,6 +354,8 @@ body {
 .icon-public-email:hover {
     color:#555;
 }
+
+*/
 
 .button-primary {
     background-color:#428bca;
