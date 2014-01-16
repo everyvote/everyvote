@@ -6,7 +6,7 @@ body {
 }
 
 .ev-max-width {
-    max-width:1160px;
+    max-width:1280px;
     margin:0 auto;
 }
 
@@ -106,12 +106,16 @@ body {
 
 .ev-breadcrumb-social-icon {
     display:inline-block;
-    margin:0 0 0 5px;
+    margin:0 0 0 10px;
     font-size:22px;
 }
 
 .ev-breadcrumb-social-icon a {
     color:#333;
+}
+
+.ev-breadcrumb-social-icon a:hover {
+    color:#888;
 }
 
 .ev-tabs {
@@ -186,14 +190,7 @@ body {
     }
 }
 
-@media (min-width:768px) and (max-width:991px) {
-    .ev-center {
-        border-right:1px dotted #ccc;
-        padding:0 15px 0 0;
-    }
-}
-
-@media (max-width:767px) {
+@media (max-width:991px) {
     .ev-center {
     }
 }
@@ -238,13 +235,21 @@ body {
 }
 
 .ev-center-level-1-first {
+    max-width:600px;
     margin:0 0 15px 0;
     border-bottom:1px solid #ccc;
 }
 
 
+.ev-center-level-1-first {
+    max-width:600px;
+    margin:10px 0 20px 0;
+    border-bottom:1px solid #ccc;
+}
+
 .ev-center-level-1 {
-    margin:30px 0 15px 0;
+    max-width:600px;
+    margin:40px 0 20px 0;
     border-bottom:1px solid #ccc;
 }
 
@@ -254,15 +259,17 @@ body {
 
 @media (max-width:767px) {
     .ev-center-level-2 {
-        margin:0 0 15px 10px;
-        border-bottom:1px dotted #ccc;
+        max-width:550px;
+        margin:0 0 10px 10px;
+        border-bottom:1px dashed #ccc;
     }
 }
 
 @media (min-width:768px) {
     .ev-center-level-2 {
-        margin:0 0 15px 20px;
-        border-bottom:1px dotted #ccc;
+        max-width:550px;
+        margin:0 0 10px 15px;
+        border-bottom:1px dashed #ccc;
     }
 }
 
@@ -272,15 +279,15 @@ body {
 
 @media (max-width:767px) {
     .ev-center-level-3 {
-        max-width:460px;
-        margin:0 0 20px 20px;
+        max-width:500px;
+        margin:0 0 25px 15px;
     }
 }
 
 @media (min-width:768px) {
     .ev-center-level-3 {
-        max-width:460px;
-        margin:0 0 20px 40px;
+        max-width:500px;
+        margin:0 0 30px 30px;
     }
 }
 
@@ -291,8 +298,8 @@ body {
 }
 
 .ev-center-level-3-profile-picture img {
-    width:50px;
-    height:50px;
+    width:60px;
+    height:60px;
     border-radius:5px;
 }
 
@@ -302,12 +309,13 @@ body {
 
 .ev-center-level-3-box-name {
     display:inline-block;
+    margin:5px 0 0 0;
     vertical-align:top;
     font-size:18px;
 }
 
 .ev-center-level-3-box-party {
-    margin:3px 0 0 0;
+    margin:5px 0 0 0;
     font-size:16px;
 }
 
@@ -320,6 +328,7 @@ body {
 @media (min-width:501px) {
     .ev-center-level-3-social {
         float:right;
+        margin:1px 0 0 0;
     }
 }
 
@@ -334,7 +343,6 @@ body {
 }
 
 .ev-right {
-    margin:0 0 0 -15px;
 }
 
 .ev-right-header {
