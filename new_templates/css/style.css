@@ -2,6 +2,7 @@ body {
     background:#fcfcfc;
     font-family:'Roboto', Arial, sans-serif;
     font-size:16px;
+    color:#333;
 }
 
 .ev-max-width {
@@ -22,9 +23,70 @@ body {
     border-radius:0;
 }
 
-.ev-breadcrumb {
-    padding:10px 0;
-    margin:0 0 10px 0;
+@media (max-width:991px) {
+    .ev-breadcrumb {
+        padding:10px 0;
+    }
+}
+
+@media (min-width:992px) {
+    .ev-breadcrumb {
+        padding:10px 0;
+        margin:0 0 10px 0;
+    }
+}
+
+.ev-breadcrumb-profile-picture {
+    display:inline-block;
+    float:left;
+    width:120px;
+    height:120px;
+    margin:0 10px 0 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+.ev-breadcrumb-profile-picture img {
+    width:114px;
+    height:114px;
+    margin:3px 0 0 3px;
+}
+
+@media (max-width:991px) {
+    .ev-breadcrumb-text {
+        margin:30px 0 0 0;
+        overflow:hidden;
+    }
+}
+
+@media (min-width:992px) {
+    .ev-breadcrumb-text {
+        display:inline-block;
+    }
+}
+
+@media (max-width:991px) {
+    .ev-breadcrumb-social {
+        margin:5px 0 0 0;
+        overflow:hidden;
+    }
+}
+
+@media (min-width:992px) {
+    .ev-breadcrumb-social {
+        float:right;
+        margin:-7px 0 0 0;
+    }
+}
+
+.ev-breadcrumb-social-connect {
+    display:inline-block;
+}
+
+.ev-breadcrumb-social-icon {
+    display:inline-block;
+    margin:0 0 0 5px;
+    font-size:22px;
 }
 
 .ev-left {
@@ -32,19 +94,15 @@ body {
 }
 
 .ev-left-profile-picture {
-    width:120px;
-    height:120px;
-    margin:0 0 20px 0;
+    max-width:120px;
+    max-height:120px;
+    padding:3px;
+    margin:0 10px 20px 0;
     border:1px solid #ccc;
     border-radius:5px;
 }
 
 .ev-left-profile-picture img {
-    width:114px;
-    height:114px;
-    margin:3px 0 0 3px;
-    
-
 }
 
 .ev-left-nav {
@@ -78,6 +136,41 @@ body {
     }
 }
 
+.ev-tabs {
+    background-color:#333;
+    font-size:16px;
+    margin:0 0 10px 0;
+    padding:0 0 0 5px;
+}
+
+@media (max-width:768px) {
+    .ev-tabs {
+        font-size:16px;
+    }
+}
+
+.ev-tabs-tab {
+    display:inline-block;
+    color:#eee;
+    padding:5px 10px 10px 10px;
+    margin:5px 0 0 0;
+    border-top-right-radius:5px;
+    border-top-left-radius:5px;
+}
+
+.ev-tabs-tab:hover {
+    background-color:#777;
+}
+
+.ev-tabs-tab-active {
+    display:inline-block;
+    padding:5px 10px 10px 10px;
+    background-color:#fcfcfc;
+    color:#333;
+    border-top-right-radius:5px;
+    border-top-left-radius:5px;
+}
+
 .ev-center-headline {
     margin:0 0 10px 0;
     font-size:24px;
@@ -103,68 +196,95 @@ body {
     margin:0 0 20px 0;
 }
 
-.ev-center-level-1-outside {
-    margin:-1px 0 0 0;
+.ev-center-level-1-first {
+    margin:0 0 15px 0;
+    border-bottom:1px dotted #ccc;
 }
 
-.ev-center-level-1-inside {
-    padding:5px 10px;
-    background:#e7e7e7;
-    font-size:18px;
-    border:1px solid #ccc;
+
+.ev-center-level-1 {
+    margin:30px 0 15px 0;
+    border-bottom:1px dotted #ccc;
 }
 
-.ev-center-level-2-outside {
-    margin:0 0 0 20px;
-}
-
-.ev-center-level-2-inside {
-    padding:5px 10px;
-    margin:-1px 0 0 0;
-    font-size:18px;
-    background:#f7f7f7;
-    border:1px solid #ccc;
-}
-
-.ev-center-level-3-outside {
-    margin:0 0 0 20px;
-    background:#fcfcfc;
-    border-right:1px solid #ccc;
-    border-left:1px dashed #ccc;
-}
-
-.ev-center-level-3-inside-first {
-    padding:10px 10px 10px 20px;
+.ev-center-level-1-name {
     font-size:18px;
 }
 
-.ev-center-level-3-inside {
-    padding:10px 10px 10px 20px;
-    font-size:18px;
-    border-top:1px dashed #ccc;
-    border-bottom:1px dashed #ccc;
+@media (max-width:767px) {
+    .ev-center-level-2 {
+        margin:0 0 10px 10px;
+        border-bottom:1px dotted #ccc;
+    }
 }
 
-.ev-center-level-3-inside-profile-picture {
-    float:left;
-    margin:0 20px 0 0;
+@media (min-width:768px) {
+    .ev-center-level-2 {
+        margin:0 0 10px 20px;
+        border-bottom:1px dotted #ccc;
+    }
 }
 
-.ev-center-level-3-inside-profile-picture img {
-    width:40px;
-    height:40px;
-}
-
-.ev-center-level-3-inside-name {
-    float:left;
-    margin:7px 0 0 0;
+.ev-center-level-2-name {
     font-size:18px;
 }
 
-.ev-center-level-3-inside-stats {
-    float:right;
-    margin:7px 0 0 0;
+@media (max-width:767px) {
+    .ev-center-level-3 {
+        max-width:450px;
+        margin:0 0 20px 20px;
+    }
+}
+
+@media (min-width:768px) {
+    .ev-center-level-3 {
+        max-width:450px;
+        margin:0 0 20px 40px;
+    }
+}
+
+.ev-center-level-3-profile-picture {
     display:inline-block;
+    float:left;
+    margin:0 10px 0 0;
+}
+
+.ev-center-level-3-profile-picture img {
+    width:50px;
+    height:50px;
+}
+
+.ev-center-level-3-box {
+    overflow:hidden;
+}
+
+.ev-center-level-3-box-name {
+    display:inline-block;
+    vertical-align:top;
+    font-size:18px;
+}
+
+.ev-center-level-3-box-party {
+    margin:3px 0 0 0;
+    font-size:16px;
+}
+
+@media (max-width:500px) {
+    .ev-center-level-3-social {
+        display:none;
+    }
+}
+
+@media (min-width:501px) {
+    .ev-center-level-3-social {
+        float:right;
+    }
+}
+
+.ev-center-level-3-social-icon {
+    float:right;
+    margin:0 0 0 10px;
+    font-size:20px;
 }
 
 .ev-right {
@@ -185,4 +305,89 @@ body {
 
 .ev-footer-button a {
     color:#eee;
+}
+
+.icon-homepage {
+    color:#222;
+}
+
+.icon-homepage:hover {
+    color:#555;
+}
+
+.icon-twitter {
+    color:#00aace;
+}
+
+.icon-twitter:hover {
+    color:#00caf4
+}
+
+.icon-facebook {
+    color:#3b5998;
+}
+
+.icon-facebook:hover {
+    color:#476bb8;
+}
+
+.icon-linkedin {
+    color:#0e76a8;
+}
+
+.icon-linkedin:hover {
+    color:#1298d8;
+}
+
+.icon-public-email {
+    color:#222;
+}
+
+.icon-public-email:hover {
+    color:#555;
+}
+
+.button-primary {
+    background-color:#428bca;
+    color:#f5f5f5;
+    cursor:pointer;
+}
+
+.button-primary:hover {
+    background-color:#72a7d8;
+    color:#fcfcfc;
+}
+
+.button-success {
+    background-color:#5cb85c;
+    color:#f5f5f5;
+    cursor:pointer;
+}
+
+.button-success:hover {
+    background-color:#82c282;
+    color:#fcfcfc;
+}
+
+.button-warning {
+    background-color:#f0ad4e;
+    color:#f5f5f5;
+    cursor:pointer;
+}
+
+.button-warning:hover {
+    background-color:#f4c280;
+    color:#fcfcfc;
+}
+
+.yes {
+    color:#5cb85c;
+}
+
+.no {
+    color:#d9534f;
+}
+
+.undecided {
+    color:#777;
 }
