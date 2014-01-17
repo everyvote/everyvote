@@ -155,7 +155,7 @@ body {
 }
 
 .ev-left {
-    border-right:1px dotted #ccc;
+
 }
 
 .ev-left-profile-picture {
@@ -185,8 +185,13 @@ body {
 
 @media (min-width:992px) {
     .ev-center {
+        padding:0 40px 20px 40px;
+        margin:0 0 0 -30px;
         border-right:1px dotted #ccc;
-        padding:0 30px 0 0;
+        border-bottom:1px dotted #ccc;
+        border-left:1px dotted #ccc;
+        border-bottom-right-radius:5px;
+        border-bottom-left-radius:5px;
     }
 }
 
@@ -242,13 +247,13 @@ body {
 
 
 .ev-center-level-1-first {
-    max-width:600px;
+    max-width:580px;
     margin:10px 0 20px 0;
     border-bottom:1px solid #ccc;
 }
 
 .ev-center-level-1 {
-    max-width:600px;
+    max-width:580px;
     margin:40px 0 20px 0;
     border-bottom:1px solid #ccc;
 }
@@ -259,34 +264,35 @@ body {
 
 @media (max-width:767px) {
     .ev-center-level-2 {
-        max-width:550px;
-        margin:0 0 10px 10px;
-        border-bottom:1px dashed #ccc;
+        max-width:535px;
+        margin:0 0 15px 10px;
+        border-bottom:1px solid #ccc;
     }
 }
 
 @media (min-width:768px) {
     .ev-center-level-2 {
-        max-width:550px;
-        margin:0 0 10px 15px;
-        border-bottom:1px dashed #ccc;
+        max-width:535px;
+        margin:0 0 15px 15px;
+        border-bottom:1px dotted #ccc;
     }
 }
 
 .ev-center-level-2-name {
     font-size:18px;
+    font-style:italic;
 }
 
 @media (max-width:767px) {
     .ev-center-level-3 {
-        max-width:500px;
+        max-width:520px;
         margin:0 0 25px 15px;
     }
 }
 
 @media (min-width:768px) {
     .ev-center-level-3 {
-        max-width:500px;
+        max-width:520px;
         margin:0 0 30px 30px;
     }
 }
@@ -298,8 +304,8 @@ body {
 }
 
 .ev-center-level-3-profile-picture img {
-    width:60px;
-    height:60px;
+    width:75px;
+    height:75px;
     border-radius:5px;
 }
 
@@ -309,7 +315,7 @@ body {
 
 .ev-center-level-3-box-name {
     display:inline-block;
-    margin:5px 0 0 0;
+    margin:12px 0 0 0;
     vertical-align:top;
     font-size:18px;
 }
@@ -328,7 +334,7 @@ body {
 @media (min-width:501px) {
     .ev-center-level-3-social {
         float:right;
-        margin:1px 0 0 0;
+        margin:11px 0 0 0;
     }
 }
 
@@ -367,6 +373,7 @@ body {
 }
 
 .ev-right-body {
+    height:420px;
     overflow:auto;
     border-right:1px solid #ccc;
     border-left:1px solid #ccc;
@@ -390,6 +397,7 @@ body {
 .ev-right-item-profile-picture img {
     width:40px;
     height:40px;
+    border-radius:3px;
 }
 
 .ev-right-item-box {
@@ -401,8 +409,17 @@ body {
 
 }
 
+.ev-right-footer {
+    border:1px solid #ccc;
+    border-bottom-right-radius:5px;
+    border-bottom-left-radius:5px;
+    color:#ccc;
+    text-align:center;
+    
+}
+
 .ev-footer {
-    margin:50px 0 0 0;
+    margin:40px 0 0 0;
     padding:10px 0;
     background:#888;
 }
