@@ -6,7 +6,7 @@ body {
 }
 
 .ev-max-width {
-    max-width:1280px;
+    max-width:1200px;
     margin:0 auto;
 }
 
@@ -14,8 +14,20 @@ body {
     clear:both;
 }
 
+.ev-clear-left {
+    clear:left;
+}
+
+.ev-clear-right {
+    clear:right;
+}
+
 .ev-indent {
     margin:0 10px 0 0;
+}
+
+.ev-space-h-10 {
+    height:10px;
 }
 
 .navbar {
@@ -45,7 +57,7 @@ body {
     width:120px;
     height:120px;
     margin:0 20px 0 0;
-    border:1px solid #ccc;
+    border:1px solid #bbb;
     border-radius:5px;
 }
 
@@ -165,7 +177,7 @@ body {
     max-height:120px;
     padding:3px;
     margin:0 10px 20px 0;
-    border:1px solid #ccc;
+    border:1px solid #bbb;
     border-radius:5px;
 }
 
@@ -190,7 +202,7 @@ body {
         padding:20px 40px 50px 40px;
         margin:0 0 0 -30px;
         background-color:#fcfcfc;
-        border:1px solid #ccc;
+        border:1px solid #bbb;
         border-radius:5px;
     }
 }
@@ -200,7 +212,7 @@ body {
         padding:20px 20px 50px 20px;
         margin:0 0 0 -20px;
         background-color:#fcfcfc;
-        border:1px solid #ccc;
+        border:1px solid #bbb;
         border-radius:5px;
     }
 }
@@ -208,7 +220,7 @@ body {
 @media (min-width:768px) and (max-width:991px) {
     .ev {
     padding:10px 40px 50px 40px;
-    border-left:1px solid #ccc;
+    border-left:1px solid #bbb;
     }
 }
 
@@ -216,6 +228,10 @@ body {
     .ev {
     padding:10px 0 0 0;
     }
+}
+
+.ev-nav {
+    font-size:15px;
 }
 
 .ev-headline {
@@ -229,8 +245,8 @@ body {
 .ev-button {
     display:inline-block;
     float:right;
-    margin:7px 0 0 10px;
-    padding:0 0 10px 0;
+    margin:2px 0 5px 10px;
+    padding:5px 0;
     font-size:15px;
     border-radius:10px;
 }
@@ -267,6 +283,9 @@ body {
     font-weight:bold;
 }
 
+.btn-group {
+}
+
 .ev-dropdown {
     font-size:15px;
 }
@@ -276,17 +295,93 @@ body {
 }
 
 .ev-text {
+    clear:left;
     margin:0 0 20px 0;
     font-size:15px;
 }
 
+.ev-group {
+    clear:left;
+    padding:30px 0 0 0;
+}
+
+.ev-group-profile-picture {
+    float:left;
+    margin:0 20px 0 0;
+}
+
+.ev-group-profile-picture img {
+    width:120px;
+    height:120px;
+    border-radius:5px;
+}
+
+.ev-group-box {
+    overflow:hidden;
+    vertical-align:top;
+}
+
+.ev-group-box-name {
+    display:inline-block;
+    float:left;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.ev-group-box-category {
+    clear:left;
+    float:left;
+    font-style:italic;
+}
+
+.ev-group-box-officers {
+    clear:left;
+    float:left;
+    margin:10px 0 0 0;
+    font-size:15px;
+}
+
+.ev-group-box-candidates {
+    clear:left;
+    float:left;
+    font-size:15px;
+}
+
+.ev-group-box-next-election {
+    clear:left;
+    float:left;
+    font-size:14px;
+}
+
+@media (max-width:500px) {
+    .ev-group-social {
+        display:none;
+    }
+}
+
+@media (min-width:501px) {
+    .ev-group-social {
+        float:right;
+    }
+}
+
+.ev-group-social-icon {
+    float:right;
+    margin:0 0 0 10px;
+    font-size:20px;
+}
+
+.ev-group-social-icon a {
+    color:#333;
+}
+
 .ev-event {
+    clear:left;
     padding:10px 0;
-    border-bottom:1px dotted #ccc;
+    border-bottom:1px solid #ddd;
 }
 
 .ev-event td {
-    vertical-align:top;
 }
 
 .ev-event-title {
@@ -311,12 +406,12 @@ body {
 
 .ev-level-1-first {
     margin:20px 0 20px 0;
-    border-bottom:3px solid #ccc;
+    border-bottom:3px solid #bbb;
 }
 
 .ev-level-1 {
     margin:60px 0 20px 0;
-    border-bottom:3px solid #ccc;
+    border-bottom:3px solid #bbb;
 }
 
 .ev-level-1-name {
@@ -326,14 +421,14 @@ body {
 @media (max-width:767px) {
     .ev-level-2 {
         margin:0 20px 15px 0px;
-        border-bottom:1px solid #ccc;
+        border-bottom:1px solid #bbb;
     }
 }
 
 @media (min-width:768px) {
     .ev-level-2 {
         margin:0 20px 20px 0px;
-        border-bottom:1px solid #ccc;
+        border-bottom:1px solid #bbb;
     }
 }
 
@@ -579,7 +674,7 @@ body {
 
 .ev-right-header {
     background-color:#f5f5f5;
-    border:1px solid #ccc;
+    border:1px solid #bbb;
     border-top-right-radius:5px;
     border-top-left-radius:5px;
 }
@@ -605,8 +700,8 @@ body {
     height:420px;
     overflow:auto;
     background-color:#fcfcfc;
-    border-right:1px solid #ccc;
-    border-left:1px solid #ccc;
+    border-right:1px solid #bbb;
+    border-left:1px solid #bbb;
 }
 
 .ev-right-item-first {
@@ -615,7 +710,7 @@ body {
 
 .ev-right-item {
     padding:10px;
-    border-top:1px dotted #ccc;
+    border-top:1px dotted #bbb;
 }
 
 .ev-right-item-profile-picture {
@@ -642,7 +737,7 @@ body {
 .ev-right-footer {
     padding:3px 0;
     background-color:#f5f5f5;
-    border:1px solid #ccc;
+    border:1px solid #bbb;
     border-bottom-right-radius:5px;
     border-bottom-left-radius:5px;
     color:#888;
