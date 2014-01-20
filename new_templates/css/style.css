@@ -199,7 +199,7 @@ body {
 
 @media (min-width:992px) {
     .ev {
-        padding:20px 40px 50px 40px;
+        padding:20px 20px 50px 20px;
         margin:0 0 0 -30px;
         background-color:#fcfcfc;
         border:1px solid #bbb;
@@ -219,7 +219,7 @@ body {
 
 @media (min-width:768px) and (max-width:991px) {
     .ev {
-    padding:10px 40px 50px 40px;
+    padding:10px 0 50px 15px;
     border-left:1px solid #bbb;
     }
 }
@@ -412,12 +412,12 @@ body {
 
 .ev-level-1-first {
     margin:20px 0 20px 0;
-    border-bottom:3px solid #bbb;
+    border-bottom:4px solid #bbb;
 }
 
 .ev-level-1 {
     margin:60px 0 20px 0;
-    border-bottom:3px solid #bbb;
+    border-bottom:4px solid #bbb;
 }
 
 .ev-level-1-name {
@@ -426,15 +426,15 @@ body {
 
 @media (max-width:767px) {
     .ev-level-2 {
-        margin:0 0 15px 10px;
-        border-bottom:1px solid #bbb;
+        margin:0 0 20px 10px;
+        border-bottom:2px solid #bbb;
     }
 }
 
 @media (min-width:768px) {
     .ev-level-2 {
-        margin:0 0 20px 20px;
-        border-bottom:1px solid #bbb;
+        margin:0 0 20px 10px;
+        border-bottom:2px solid #bbb;
     }
 }
 
@@ -445,13 +445,13 @@ body {
 
 @media (max-width:767px) {
     .ev-level-3 {
-        margin:0 40px 25px 20px;
+        margin:0 40px 30px 20px;
     }
 }
 
 @media (min-width:768px) {
     .ev-level-3 {
-        margin:0 40px 30px 40px;
+        margin:0 40px 30px 20px;
     }
 }
 
@@ -681,6 +681,105 @@ body {
 
 .ev-player-nav {
 
+}
+
+.ev-player-nav-item-1 {
+    font-size:16px;
+    padding:5px 0;
+    font-weight:bold;
+    border-bottom:1px solid #bbb;
+}
+
+.ev-player-nav-item-2 {
+    margin:0 0 0 10px;
+    padding:5px 0;
+    font-size:15px;
+    border-bottom:1px dashed #bbb;
+}
+
+.ev-player-nav-item-3 {
+    margin:0 0 0 20px;
+    padding:5px 0;
+    font-size:14px;
+    border-bottom:1px dotted #bbb;
+}
+
+.ev-player-nav-item-3-active {
+    margin:0 0 0 20px;
+    padding:5px 0;
+    background-color:#ffffc3;
+    font-size:14px;
+    border-bottom:1px dotted #bbb;
+}
+
+.ev-player-nav-item-4 {
+    padding:5px 0;
+    margin:0 0 0 30px;
+    font-size:14px;
+    border-bottom:1px dotted #bbb;
+}
+
+.ev-player-nav-item-4-active {
+    padding:5px 0;
+    margin:0 0 0 30px;
+    font-size:14px;
+    background-color:#f3f3f3;
+    border-bottom:1px dotted #bbb;
+    
+}
+
+.ev-player-nav-item-caret {
+    float:right;
+    padding:4px 0 0 0;
+}
+
+.ev-player-timestamp {
+    margin:10px 0 0 0;
+    color:#555;
+    font-size:15px;
+}
+
+.ev-player-about {
+    padding:10px 0 0 0;
+}
+
+.ev-player-comments {
+    padding:10px 0 0 0;
+}
+
+.ev-player-comments-comment {
+    padding:20px 0 20px 0;
+    border-bottom:1px solid #ddd;
+}
+
+.ev-player-comments-comment-profile-picture {
+    display:inline-block;
+    float:left;
+    margin:0 10px 0 0;
+}
+
+.ev-player-comments-comment-profile-picture img {
+    width:32px;
+    height:32px;
+    border-radius:5px;
+}
+
+.ev-player-comments-comment-name {
+    display:inline-block;
+    margin:-4px 0 0 0;
+    font-size:14px;
+}
+
+.ev-player-comments-comment-timestamp {
+    display:inline-block;
+    color:#555;
+    font-size:14px;
+}
+
+.ev-player-comments-comment-text {
+    clear:left;
+    margin:5px 0 0 0;
+    font-size:14px;
 }
 
 .ev-right {
