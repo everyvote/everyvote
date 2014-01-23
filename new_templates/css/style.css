@@ -230,6 +230,11 @@ body {
     }
 }
 
+.ev hr {
+    margin:10px 0 10px 0;
+    border-top:1px solid #ddd;
+}
+
 .ev-nav {
     font-size:15px;
 }
@@ -374,7 +379,7 @@ body {
 .ev-group-social-icon {
     float:right;
     margin:0 0 0 10px;
-    font-size:20px;
+    font-size:22px;
 }
 
 .ev-group-social-icon a {
@@ -433,8 +438,9 @@ body {
 
 @media (min-width:768px) {
     .ev-level-2 {
-        margin:0 0 20px 10px;
+        margin:0 0 20px 20px;
         border-bottom:2px solid #bbb;
+        clear:both;
     }
 }
 
@@ -446,24 +452,30 @@ body {
 @media (max-width:767px) {
     .ev-level-3 {
         margin:0 40px 30px 20px;
+        clear:both;
     }
 }
 
 @media (min-width:768px) {
     .ev-level-3 {
-        margin:0 40px 30px 20px;
+        margin:0 40px 30px 40px;
+        clear:both;
     }
 }
 
 .ev-level-3-profile-picture {
     display:inline-block;
     float:left;
+    clear:left;
     margin:0 20px 0 0;
+    padding:3px;
+    border:1px solid #bbb;
+    border-radius:5px;
 }
 
 .ev-level-3-profile-picture img {
-    width:75px;
-    height:75px;
+    width:84px;
+    height:84px;
     border-radius:5px;
 }
 
@@ -473,13 +485,12 @@ body {
 
 .ev-level-3-box-name {
     display:inline-block;
-    margin:10px 0 0 0;
+    margin:5px 0 0 0;
     vertical-align:top;
     font-size:18px;
 }
 
 .ev-level-3-box-party {
-    margin:5px 0 0 0;
     font-size:16px;
 }
 
@@ -491,14 +502,14 @@ body {
 
 @media (min-width:501px) {
     .ev-level-3-social {
-        float:right;
-        margin:11px 0 0 0;
+        float:left;
+        margin:5px 0 0 0;
     }
 }
 
 .ev-level-3-social-icon {
     float:right;
-    margin:0 0 0 10px;
+    margin:0 10px 0 0;
     font-size:20px;
 }
 
@@ -641,6 +652,14 @@ body {
     font-size:14px;
 }
 
+.ev-answers-show-all {
+    margin:5px 0 0 0;
+}
+
+.ev-answers-show-all a {
+    color:#333;
+}
+
 .ev-comments {
     margin:0 0 0 11px;
     padding:0 0 0 40px;
@@ -679,32 +698,32 @@ body {
 
 }
 
-.ev-player-nav {
+.ev-side-nav {
 
 }
 
-.ev-player-nav-item-1 {
+.ev-side-nav-item-1 {
     font-size:16px;
     padding:5px 0;
     font-weight:bold;
     border-bottom:1px solid #bbb;
 }
 
-.ev-player-nav-item-2 {
+.ev-side-nav-item-2 {
     margin:0 0 0 10px;
     padding:5px 0;
     font-size:15px;
     border-bottom:1px dashed #bbb;
 }
 
-.ev-player-nav-item-3 {
+.ev-side-nav-item-3 {
     margin:0 0 0 20px;
     padding:5px 0;
     font-size:14px;
     border-bottom:1px dotted #bbb;
 }
 
-.ev-player-nav-item-3-active {
+.ev-side-nav-item-3-active {
     margin:0 0 0 20px;
     padding:5px 0;
     background-color:#ffffc3;
@@ -712,14 +731,14 @@ body {
     border-bottom:1px dotted #bbb;
 }
 
-.ev-player-nav-item-4 {
+.ev-side-nav-item-4 {
     padding:5px 0;
     margin:0 0 0 30px;
     font-size:14px;
     border-bottom:1px dotted #bbb;
 }
 
-.ev-player-nav-item-4-active {
+.ev-side-nav-item-4-active {
     padding:5px 0;
     margin:0 0 0 30px;
     font-size:14px;
@@ -728,7 +747,7 @@ body {
     
 }
 
-.ev-player-nav-item-caret {
+.ev-side-nav-item-caret {
     float:right;
     padding:4px 0 0 0;
 }
@@ -780,6 +799,81 @@ body {
     clear:left;
     margin:5px 0 0 0;
     font-size:14px;
+}
+
+.ev-person {
+    clear:both;
+}
+
+.ev-person-next {
+    float:right;
+    margin:4px 0 0 20px;
+}
+
+.ev-person-prev {
+    float:right;
+    margin:4px 20px 0 20px;
+}
+
+.ev-person-running-for {
+    clear:left;
+    margin:-10px 0 15px 0;
+    font-size:20px;
+}
+
+.ev-person-running-for a {
+    color:#333;
+    text-decoration:none;
+}
+
+.ev-person-running-for a:hover {
+    color:#888;
+}
+
+.ev-person-profile-picture {
+    float:left;
+    margin:0 20px 20px 0;
+    padding:3px;
+    border:1px solid #bbb;
+    border-radius:5px;
+}
+
+.ev-person-profile-picture img {
+    width:84px;
+    height:84px;
+    border-radius:5px;
+}
+
+.ev-person-box {
+    display:inline-block;
+}
+
+.ev-person-box-name {
+    float:left;
+    font-size:20px;
+}
+
+.ev-person-box-party {
+    clear:left;
+}
+
+.ev-person-box-social {
+    clear:left;
+    margin:5px 0 0 0;
+}
+
+.ev-person-box-social-icon {
+    float:left;
+    margin:0 10px 0 0;
+    font-size:20px;
+}
+
+.ev-person-box-social-icon a {
+    color:#333;
+}
+
+.ev-person-box-social-icon a:hover {
+    color:#888;
 }
 
 .ev-right {
