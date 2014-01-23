@@ -703,8 +703,8 @@ body {
 }
 
 .ev-side-nav-item-1 {
-    font-size:16px;
     padding:5px 0;
+    font-size:16px;
     font-weight:bold;
     border-bottom:1px solid #bbb;
 }
@@ -724,8 +724,8 @@ body {
 }
 
 .ev-side-nav-item-3-active {
-    margin:0 0 0 20px;
-    padding:5px 0;
+    margin:0 0 0 10px;
+    padding:5px 0 5px 10px;
     background-color:#ffffc3;
     font-size:14px;
     border-bottom:1px dotted #bbb;
@@ -739,10 +739,10 @@ body {
 }
 
 .ev-side-nav-item-4-active {
-    padding:5px 0;
-    margin:0 0 0 30px;
+    padding:5px 0 0 10px;
+    margin:0 0 0 20px;
     font-size:14px;
-    background-color:#f3f3f3;
+    background-color:#ffffc3;
     border-bottom:1px dotted #bbb;
     
 }
@@ -817,7 +817,7 @@ body {
 
 .ev-person-running-for {
     clear:left;
-    margin:-10px 0 15px 0;
+    margin:-10px 0 25px 0;
     font-size:20px;
 }
 
@@ -832,7 +832,7 @@ body {
 
 .ev-person-profile-picture {
     float:left;
-    margin:0 20px 20px 0;
+    margin:0 20px 30px 10px;
     padding:3px;
     border:1px solid #bbb;
     border-radius:5px;
@@ -844,8 +844,19 @@ body {
     border-radius:5px;
 }
 
+.ev-person-match {
+    float:right;
+    margin:0 10px 0 0;
+}
+
+.ev-person-match td {
+    padding:3px 5px;
+    border:1px solid #888;
+}
+
 .ev-person-box {
     display:inline-block;
+    overflow:hidden;
 }
 
 .ev-person-box-name {
@@ -905,6 +916,7 @@ body {
 
 .ev-right-body {
     height:420px;
+    padding:0 10px;
     overflow:auto;
     background-color:#fcfcfc;
     border-right:1px solid #bbb;
@@ -912,11 +924,11 @@ body {
 }
 
 .ev-right-item-first {
-    padding:10px;
+    padding:10px 0;
 }
 
 .ev-right-item {
-    padding:10px;
+    padding:10px 0;
     border-top:1px dotted #bbb;
 }
 
