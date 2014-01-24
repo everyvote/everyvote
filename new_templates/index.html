@@ -27,7 +27,7 @@
 <script src="js/jquery-1.10.2.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 
-<title>NIU Student Association - Election</title>
+<title>EveryVote Townhall</title>
 
 </head>
 
@@ -85,944 +85,115 @@
   </div><!-- /.ev-max-width -->
 </nav><!-- /.navbar navbar-inverse -->
 
-<div class="ev-clear">
-</div>
+<div class="col-xs-12">
+  <div class="ev-home-max-width">
+    <div class="ev-home-jumbotron">
+      <img src="img/everyvote_transparent.gif" class="img-responsive" />
+    </div>
+    <div class="ev-home-tagline">
+      Free/Open Source Election & Townhall Platform
+    </div>
+    <div class="ev-home-input">
+      <div class="input-group input-group-lg">
+        <input type="text" class="form-control" placeholder="Type group or university name here">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button"><i class="fa fa-search fa-lg"></i></button>
+        </span>
+      </div>
+    </div><!-- /.ev-home-input -->
+    <hr />
+    <div class="btn-group ev-dropdown">
+      Sorted by: <a class="dropdown-toggle" data-toggle="dropdown">
+        Next Election<span class="caret"></span> &nbsp
+      </a>
+      <ul class="dropdown-menu ev-right-dropdown-menu" role="menu">
+        <li><a href="#">Alphabetical</a></li>
+        <li><a href="#"># of Groups</a></li>
+        <li><a href="#"># of Candidates</a></li>
+        <li><a href="#"># of Officers</a></li>
+      </ul>
+    </div><!-- /.btn-group ev-dropdown-->
 
-<div class="ev-breadcrumb">
-  <div class="ev-max-width">
-    <div class="col-xs-12">
-      <div class="ev-breadcrumb-profile-picture visible-xs hidden-sm hidden-md hidden-lg">
-        <img src="img/university_logos/northern_illinois_university_logo.jpg" />
-      </div>
-      <div class="ev-breadcrumb-text visible-xs hidden-sm hidden-md hidden-lg">
-        Northern Illinois University > Student Association
-      </div>
-      <div class="ev-breadcrumb-social">
-        <div class="ev-breadcrumb-social-connect">
-          Connect:
-        </div>
-        <div class="ev-breadcrumb-social-icon icon-homepage">
-          <a href="http://www.niu.edu/sa/" target="_blank"><i class="fa fa-home icon-homepage"></i></a>
-        </div><!-- /.ev-breadcrumb-social-icon -->
-        <div class="ev-breadcrumb-social-icon">
-          <a href="https://www.facebook.com/NIUStudentAssociation" target="_blank"><i class="fa fa-facebook icon-facebook"></i></a>
-        </div><!-- /.ev-breadcrumb-social-icon -->
-        <div class="ev-breadcrumb-social-icon">
-          <a href="https://twitter.com/SA_NIU" target="_blank"><i class="fa fa-twitter icon-twitter"></i></a>
-        </div><!-- /.ev-breadcrumb-social-icon -->
-        <div class="ev-breadcrumb-social-icon">
-          <a href="http://www.linkedin.com/company/northern-illinois-university" target="_blank"><i class="fa fa-linkedin icon-linkedin"></i></a>
-        </div><!-- /.ev-breadcrumb-social-icon -->
-        <div class="ev-breadcrumb-social-icon">
-          <a href="#"><i class="fa fa-envelope-o icon-public-email"></i></a>
-        </div><!-- /.ev-breadcrumb-social-icon -->
-      </div><!-- /.ev-breadcrumb-social -->
-      <div class="ev-breadcrumb-buttons visible-xs hidden-sm hidden-md hidden-lg">
-        <div class="ev-breadcrumb-buttons-join">
-          Join Group
-        </div><!-- /.ev-breadcrumb-buttons-join -->
-        <div class="ev-breadcrumb-buttons-donate">
-          Donate
-        </div><!-- /.ev-breadcrumb-buttons-donate -->
-      </div><!-- /.ev-breadcrumb-buttons -->
-      <div class="ev-breadcrumb-text hidden-xs visible-sm visible-md visible-lg">
-        Northern Illinois University > Student Association
-      </div>
-    </div><!-- /.col-xs-12 -->
     <div class="ev-clear">
     </div>
-  </div><!-- /.ev-max-width -->
-</div><!-- /.ev-breadcrumb -->
-
-<div class="ev-clear">
-</div>
-
-<div class="ev-max-width">
-  <div class="col-sm-2 hidden-xs visible-sm visible-md visible-lg">
-    <div class="ev-left">
-      <a href="#">
-        <div class="ev-left-profile-picture">
-          <img src="img/university_logos/northern_illinois_university_logo.jpg" class="img-responsive" />
-        </div><!-- /.ev-left-profile-picture -->
-      </a>
-      <div class="ev-left-nav">
-        <a href="about.html"><i class="fa fa-book"></i> &nbsp About</a>
-      </div>
-      <div class="ev-left-nav">
-        <a href="calendar.html"><i class="fa fa-calendar"></i> &nbsp Calendar </a>
-      </div>
-      <div class="ev-left-nav">
-        <a href="debate.html"><i class="fa fa-comments-o"></i> &nbsp Debate</a>
-      </div>
-      <div class="ev-left-nav">
-        <a href="election.html"><i class="fa fa-list-ul"></i> &nbsp Election &nbsp <i class="fa fa-angle-right"></i></a>
-      </div>
-      <div class="ev-left-nav">
-        <a href="groups.html"><i class="fa fa-sitemap"></i> &nbsp Groups</a>
-      </div>
-      <div class="ev-left-nav">
-        <a href="media.html"><i class="fa fa-film"></i> &nbsp Media</a>
-      </div>
-      <div class="ev-left-nav">
-        <a href="#"><i class="fa fa-gears"></i> &nbsp Mod Controls</a>
-      </div>
-      <div class="ev-left-nav">
-        ---
-      </div>
-      <div class="ev-left-nav">
-        <a href="#"><i class="fa fa-sign-in"></i> &nbsp Join Group</a>
-      </div>
-      <div class="ev-left-nav">
-        <a href="#"><i class="fa fa-money"></i> &nbsp Donate</a>
-      </div>
-    </div><!-- /.ev-left -->
-  </div><!-- /.col-sm-2 hidden-xs visible-sm visible-md visible-lg -->
-  <div class="ev-header visible-xs hidden-sm hidden-md hidden-lg">
-      <div class="ev-tabs">
-        <a href="about.html">
-          <div class="ev-tabs-tab">
-            <i class="fa fa-book"></i> About
-          </div><!-- /.ev-tabs-tab -->
-        </a>
-        <a href="calendar.html">
-          <div class="ev-tabs-tab">
-            <i class="fa fa-calendar"></i> Calendar
-          </div><!-- /.ev-tabs-tab -->
-        </a>
-        <a href="debate.html">
-          <div class="ev-tabs-tab">
-            <i class="fa fa-comments-o"></i> Debate
-          </div><!-- /.ev-tabs-tab -->
-        </a>
-        <a href="election.html">
-          <div class="ev-tabs-tab-active">
-            <i class="fa fa-list-ul"></i> Election
-          </div><!-- /.ev-tabs-tab -->
-        </a>
-        <a href="groups.html">
-          <div class="ev-tabs-tab">
-            <i class="fa fa-sitemap"></i> Groups
-          </div><!-- /.ev-tabs-tab -->
-        </a>
-        <a href="#">
-          <div class="ev-tabs-tab">
-            <i class="fa fa-film"></i> Media
-          </div><!-- /.ev-tabs-tab -->
-        </a>
-        <div class="clear-both">
+    <div class="ev-home-group-first">
+      <a href="niu/index.html">
+        <div class="ev-home-group-profile-picture">
+          <img src="img/university_logos/groups/niu_huskie.jpg" />
         </div>
-      </div><!-- /.ev-tabs -->
-  </div><!-- /.ev-header -->
-  <div class="col-sm-10 col-md-7 visible-xs visible-sm visible-md visible-lg">
-    <div class="ev">
-      <div class="ev-headline">
-        <i class="fa fa-list-ul"></i> Election
-      </div>
-      <div class="ev-button">
-        <a class="button-primary" href="#">
-          <i class="fa fa-share-square-o"></i> Share
-        </a>
-      </div><!-- /.ev-button -->
-      <div class="ev-button">
-        <a class="button-success" href="#">
-          <i class="fa fa-flag-o"></i> Run for Office
-        </a>
-      </div><!-- /.ev-button -->
-      <div class="ev-button ev-clear">
-        <a class="button-warning" href="#">
-          <i class="fa fa-pencil-square-o"></i> Edit
-        </a>
-      </div><!-- /.ev-button -->
-      <div class="ev-button">
-        <a class="button-warning" href="#">
-          <i class="fa fa-plus"></i> Add Candidate
-        </a>
-      </div><!-- /.ev-button -->
-      <div class="ev-button-left">
-        <a class="button-yellow" href="#">
-          <i class="fa fa-check-square-o"></i> Vote Online
-        </a>
-      </div><!-- /.ev-button -->
+      </a>
+      <div class="ev-home-group-box">
+        <div class="ev-home-group-box-name">
+          <a href="niu/index.html">Northern Illinois University <span style="color:#f00;">(Click Here)</span></a>
+        </div>
+        <div class="ev-home-group-box-category">
+          Higher Education
+        </div>
+        <div class="ev-home-group-box-next-election">
+          Next Election: 02/03/2012 - 02/05/2012
+        </div>
+        <div class="ev-home-group-box-social">
+          <div class="ev-home-group-box-social-icon">
+            <a href="#"><i class="fa fa-envelope-o icon-public-email"></i></a>
+          </div><!-- /.ev-home-group-box-social-icon -->
+          <div class="ev-home-group-box-social-icon">
+            <a href="http://www.linkedin.com/company/northern-illinois-university" target="_blank"><i class="fa fa-linkedin icon-linkedin"></i></a>
+          </div><!-- /.ev-home-group-box-social-icon -->
+          <div class="ev-home-group-box-social-icon">
+            <a href="https://www.twitter.com/niulive" target="_blank"><i class="fa fa-twitter icon-twitter"></i></a>
+          </div><!-- /.ev-home-group-box-social-icon -->
+          <div class="ev-home-group-box-social-icon">
+            <a href="https://www.facebook.com/NorthernIllUniv" target="_blank"><i class="fa fa-facebook icon-facebook"></i></a>
+          </div><!-- /.ev-home-group-box-social-icon -->
+          <div class="ev-home-group-box-social-icon icon-homepage">
+            <a href="http://www.niu.edu" target="_blank"><i class="fa fa-home icon-homepage"></i></a>
+          </div><!-- /.ev-home-group-box-social-icon -->
+        </div><!-- /.ev-home-group-box-social -->
+      </div><!-- /.ev-home-group-box -->
       <div class="ev-clear">
       </div>
-      <div class="ev-cover">
-        <img src="img/niu_altgeld_lagoon.jpg" class="img-responsive" />
-      </div><!-- /.ev-cover -->
-      <div class="ev-title">
-        About Spring 2012 Election
-      </div><!-- /.ev-title -->
-      <div class="ev-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec gravida dui. Maecenas libero risus, ornare in risus a, rutrum consectetur ligula. Integer pellentesque vulputate velit, ut viverra ligula sagittis nec. Proin lectus nunc, malesuada et ante et, fringilla semper sem.
-        <br /><br />
-        Integer nec gravida velit. Maecenas lectus eros, ultrices ut libero in, congue mattis velit. Nam pulvinar mi non lacus volutpat aliquam. Pellentesque fringilla congue condimentum. Suspendisse ut augue id turpis feugiat tristique ac a leo.
-      </div><!-- /.ev-text -->
-      <div class="ev-title">
-        Election Days
-      </div><!-- /.ev-title -->
-      <div class="ev-text">
-        02/03/2012 - Monday<br />
-        02/04/2012 - Tuesday<br />
-        02/05/2012 - Wednesday<br />
-        <a href="#">Voting Instructions</a>
-      </div><!-- /.ev-text -->
-      <div class="ev-title">
-        Candidates <small>(18)</small>
-      </div><!-- /.ev-title -->
-      <div class="btn-group ev-dropdown">
-        Sorting: <a class="dropdown-toggle" data-toggle="dropdown">
-          Random <span class="caret"></span> &nbsp
+    </div><!-- /.ev-home-group -->
+    <div class="ev-home-group">
+      <div class="ev-home-group-profile-picture">
+        <a href="uiuc/index.html">
+          <img src="img/university_logos/university_of_illinois_urbana-champaign_logo.jpg" />
         </a>
-        <ul class="dropdown-menu ev-right-dropdown-menu" role="menu">
-          <li><a href="#">Alphabetical - First Name</a></li>
-          <li><a href="#">Alphabetical - Last Name</a></li>
-          <li><a href="#">Most Questions</a></li>
-          <li><a href="#">Most Answers</a></li>
-          <li><a href="#">Most Comments</a></li>
-        </ul>
-      </div><!-- /.btn-group ev-right-dropdown-->
-      <div class="ev-levels">
-        <div class="ev-level-1-first">
-          <div class="ev-level-1-name">
-            Executive Branch <small>(9)</small>
-          </div><!-- /.ev-level-1-name -->
-        </div><!-- /.ev-level-1 -->
-        <div class="ev-level-2">
-          <div class="ev-level-2-name">
-            President <small>(3)</small>
-          </div><!-- /.ev-level-2-name -->
-        </div><!-- /.ev-level-2 -->
-        <div class="ev-level-3">
-          <div class="ev-level-3-profile-picture">
-            <img src="img/ppl/sojournertruth.jpg" />
-          </div><!-- /.ev-level-3-profile-picture -->
-          <div class="ev-level-3-social">
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-envelope-o icon-public-email"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-linkedin icon-linkedin"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-twitter icon-twitter"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-facebook icon-facebook"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon icon-homepage">
-              <a href="#"><i class="fa fa-home icon-homepage"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-          </div><!-- /.ev-level-3-social -->
-          <div class="ev-level-3-box">
-            <div class="ev-level-3-box-name">
-              Sojourner Truth
-            </div><!-- /.ev-level-3-box-name -->
-            <div class="ev-level-3-box-party">
-              Independent
-            </div><!-- /.ev-level-3-box-party -->
-          </div><!-- /.ev-level-3-box -->
-        </div><!-- /.ev-level-3 -->
-        <div class="ev-level-3">
-          <div class="ev-level-3-profile-picture">
-            <img src="img/ppl/abrahamlincoln.jpg" />
-          </div><!-- /.ev-level-3-profile-picture -->
-          <div class="ev-level-3-social">
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-envelope-o icon-public-email"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-linkedin icon-linkedin"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-twitter icon-twitter"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-facebook icon-facebook"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon icon-homepage">
-              <a href="#"><i class="fa fa-home icon-homepage"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-          </div><!-- /.ev-level-3-social -->
-          <div class="ev-level-3-box">
-            <div class="ev-level-3-box-name">
-              Abraham Lincoln
-            </div><!-- /.ev-level-3-box-name -->
-            <div class="ev-level-3-box-party">
-              Independent
-            </div><!-- /.ev-level-3-box-party -->
-          </div><!-- /.ev-level-3-box -->
-        </div><!-- /.ev-level-3 -->
-        <div class="ev-level-3">
-          <div class="ev-level-3-profile-picture">
-            <img src="img/ppl/frederickdouglass.jpg" />
-          </div><!-- /.ev-level-3-profile-picture -->
-          <div class="ev-level-3-social">
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-envelope-o icon-public-email"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-linkedin icon-linkedin"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-twitter icon-twitter"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-facebook icon-facebook"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon icon-homepage">
-              <a href="#"><i class="fa fa-home icon-homepage"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-          </div><!-- /.ev-level-3-social -->
-          <div class="ev-level-3-box">
-            <div class="ev-level-3-box-name">
-              Frederick Douglass
-            </div><!-- /.ev-level-3-box-name -->
-            <div class="ev-level-3-box-party">
-              Independent
-            </div><!-- /.ev-level-3-box-party -->
-          </div><!-- /.ev-level-3-box -->
-        </div><!-- /.ev-level-3 -->
-        <div class="ev-level-2">
-          <div class="ev-level-2-name">
-            Vice-President <small>(2)</small>
-          </div><!-- /.ev-level-2-name -->
-        </div><!-- /.ev-level-2 -->
-        <div class="ev-level-3">
-          <div class="ev-level-3-profile-picture">
-            <img src="img/ppl/elizabethcadystanton.jpg" />
-          </div><!-- /.ev-level-3-profile-picture -->
-          <div class="ev-level-3-social">
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-envelope-o icon-public-email"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-linkedin icon-linkedin"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-twitter icon-twitter"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-facebook icon-facebook"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon icon-homepage">
-              <a href="#"><i class="fa fa-home icon-homepage"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-          </div><!-- /.ev-level-3-social -->
-          <div class="ev-level-3-box">
-            <div class="ev-level-3-box-name">
-              Elizabeth Cady Stanton
-            </div><!-- /.ev-level-3-box-name -->
-            <div class="ev-level-3-box-party">
-              Independent
-            </div><!-- /.ev-level-3-box-party -->
-          </div><!-- /.ev-level-3-box -->
-        </div><!-- /.ev-level-3 -->
-        <div class="ev-level-3">
-          <div class="ev-level-3-profile-picture">
-            <img src="img/ppl/harrietbeecherstowe.jpg" />
-          </div><!-- /.ev-level-3-profile-picture -->
-          <div class="ev-level-3-social">
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-envelope-o icon-public-email"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-linkedin icon-linkedin"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-twitter icon-twitter"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-facebook icon-facebook"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon icon-homepage">
-              <a href="#"><i class="fa fa-home icon-homepage"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-          </div><!-- /.ev-level-3-social -->
-          <div class="ev-level-3-box">
-            <div class="ev-level-3-box-name">
-              Harriet Beecher Stowe
-            </div><!-- /.ev-level-3-box-name -->
-            <div class="ev-level-3-box-party">
-              Independent
-            </div><!-- /.ev-level-3-box-party -->
-          </div><!-- /.ev-level-3-box -->
-        </div><!-- /.ev-level-3 -->
-        <div class="ev-level-2">
-          <div class="ev-level-2-name">
-            Treasurer <small>(2)</small>
-          </div><!-- /.ev-level-2-name -->
-        </div><!-- /.ev-level-2 -->
-        <div class="ev-level-3">
-          <div class="ev-level-3-profile-picture">
-            <img src="img/ppl/bookertwashington.jpg" />
-          </div><!-- /.ev-level-3-profile-picture -->
-          <div class="ev-level-3-social">
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-envelope-o icon-public-email"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-linkedin icon-linkedin"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-twitter icon-twitter"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-facebook icon-facebook"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon icon-homepage">
-              <a href="#"><i class="fa fa-home icon-homepage"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-          </div><!-- /.ev-level-3-social -->
-          <div class="ev-level-3-box">
-            <div class="ev-level-3-box-name">
-              Booker T. Washington
-            </div><!-- /.ev-level-3-box-name -->
-            <div class="ev-level-3-box-party">
-              Independent
-            </div><!-- /.ev-level-3-box-party -->
-          </div><!-- /.ev-level-3-box -->
-        </div><!-- /.ev-level-3 -->
-        <div class="ev-level-3">
-          <div class="ev-level-3-profile-picture">
-            <img src="img/ppl/susanbanthony.jpg" />
-          </div><!-- /.ev-level-3-profile-picture -->
-          <div class="ev-level-3-social">
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-envelope-o icon-public-email"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-linkedin icon-linkedin"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-twitter icon-twitter"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-facebook icon-facebook"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon icon-homepage">
-              <a href="#"><i class="fa fa-home icon-homepage"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-          </div><!-- /.ev-level-3-social -->
-          <div class="ev-level-3-box">
-            <div class="ev-level-3-box-name">
-              Susan B. Anthony
-            </div><!-- /.ev-level-3-box-name -->
-            <div class="ev-level-3-box-party">
-              Independent
-            </div><!-- /.ev-level-3-box-party -->
-          </div><!-- /.ev-level-3-box -->
-        </div><!-- /.ev-level-3 -->
-        <div class="ev-level-2">
-          <div class="ev-level-2-name">
-            Secretary <small>(2)</small>
-          </div><!-- /.ev-level-2-name -->
-        </div><!-- /.ev-level-2 -->
-        <div class="ev-level-3">
-          <div class="ev-level-3-profile-picture">
-            <img src="img/ppl/martinlutherkingjr.jpg" />
-          </div><!-- /.ev-level-3-profile-picture -->
-          <div class="ev-level-3-social">
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-envelope-o icon-public-email"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-linkedin icon-linkedin"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-twitter icon-twitter"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-facebook icon-facebook"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon icon-homepage">
-              <a href="#"><i class="fa fa-home icon-homepage"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-          </div><!-- /.ev-level-3-social -->
-          <div class="ev-level-3-box">
-            <div class="ev-level-3-box-name">
-              Martin Luther King Jr.
-            </div><!-- /.ev-level-3-box-name -->
-            <div class="ev-level-3-box-party">
-              Independent
-            </div><!-- /.ev-level-3-box-party -->
-          </div><!-- /.ev-level-3-box -->
-        </div><!-- /.ev-level-3 -->
-        <div class="ev-level-3">
-          <div class="ev-level-3-profile-picture">
-            <img src="img/ppl/marktwain.jpg" />
-          </div><!-- /.ev-level-3-profile-picture -->
-          <div class="ev-level-3-social">
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-envelope-o icon-public-email"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-linkedin icon-linkedin"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-twitter icon-twitter"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-facebook icon-facebook"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon icon-homepage">
-              <a href="#"><i class="fa fa-home icon-homepage"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-          </div><!-- /.ev-level-3-social -->
-          <div class="ev-level-3-box">
-            <div class="ev-level-3-box-name">
-              Mark Twain
-            </div><!-- /.ev-level-3-box-name -->
-            <div class="ev-level-3-box-party">
-              Independent
-            </div><!-- /.ev-level-3-box-party -->
-          </div><!-- /.ev-level-3-box -->
-        </div><!-- /.ev-level-3 -->
-        <div class="ev-level-1">
-          <div class="ev-level-1-name">
-            Legislative Branch <small>(6)</small>
-          </div><!-- /.ev-level-1-name -->
-        </div><!-- /.ev-level-1 -->
-        <div class="ev-level-2">
-          <div class="ev-level-2-name">
-            Senator - District 1 <small>(3)</small>
-          </div><!-- /.ev-level-2-name -->
-        </div><!-- /.ev-level-2 -->
-        <div class="ev-level-3">
-          <div class="ev-level-3-profile-picture">
-            <img src="img/ppl/alberteinstein.jpg" />
-          </div><!-- /.ev-level-3-profile-picture -->
-          <div class="ev-level-3-social">
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-envelope-o icon-public-email"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-linkedin icon-linkedin"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-twitter icon-twitter"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-facebook icon-facebook"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon icon-homepage">
-              <a href="#"><i class="fa fa-home icon-homepage"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-          </div><!-- /.ev-level-3-social -->
-          <div class="ev-level-3-box">
-            <div class="ev-level-3-box-name">
-              Albert Einstein
-            </div><!-- /.ev-level-3-box-name -->
-            <div class="ev-level-3-box-party">
-              Independent
-            </div><!-- /.ev-level-3-box-party -->
-          </div><!-- /.ev-level-3-box -->
-        </div><!-- /.ev-level-3 -->
-        <div class="ev-level-3">
-          <div class="ev-level-3-profile-picture">
-            <img src="img/ppl/janeaddams.jpg" />
-          </div><!-- /.ev-level-3-profile-picture -->
-          <div class="ev-level-3-social">
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-envelope-o icon-public-email"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-linkedin icon-linkedin"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-twitter icon-twitter"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-facebook icon-facebook"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon icon-homepage">
-              <a href="#"><i class="fa fa-home icon-homepage"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-          </div><!-- /.ev-level-3-social -->
-          <div class="ev-level-3-box">
-            <div class="ev-level-3-box-name">
-              Jane Addams
-            </div><!-- /.ev-level-3-box-name -->
-            <div class="ev-level-3-box-party">
-              Independent
-            </div><!-- /.ev-level-3-box-party -->
-          </div><!-- /.ev-level-3-box -->
-        </div><!-- /.ev-level-3 -->
-        <div class="ev-level-3">
-          <div class="ev-level-3-profile-picture">
-            <img src="img/ppl/buckminsterfuller.jpg" />
-          </div><!-- /.ev-level-3-profile-picture -->
-          <div class="ev-level-3-social">
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-envelope-o icon-public-email"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-linkedin icon-linkedin"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-twitter icon-twitter"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-facebook icon-facebook"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon icon-homepage">
-              <a href="#"><i class="fa fa-home icon-homepage"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-          </div><!-- /.ev-level-3-social -->
-          <div class="ev-level-3-box">
-            <div class="ev-level-3-box-name">
-              Buckminster Fuller
-            </div><!-- /.ev-level-3-box-name -->
-            <div class="ev-level-3-box-party">
-              Independent
-            </div><!-- /.ev-level-3-box-party -->
-          </div><!-- /.ev-level-3-box -->
-        </div><!-- /.ev-level-3 -->
-        <div class="ev-level-2">
-          <div class="ev-level-2-name">
-            Senator - District 2 <small>(3)</small>
-          </div><!-- /.ev-level-2-name -->
-        </div><!-- /.ev-level-2 -->
-        <div class="ev-level-3">
-          <div class="ev-level-3-profile-picture">
-            <img src="img/ppl/harriettubman.jpg" />
-          </div><!-- /.ev-level-3-profile-picture -->
-          <div class="ev-level-3-social">
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-envelope-o icon-public-email"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-linkedin icon-linkedin"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-twitter icon-twitter"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-facebook icon-facebook"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon icon-homepage">
-              <a href="#"><i class="fa fa-home icon-homepage"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-          </div><!-- /.ev-level-3-social -->
-          <div class="ev-level-3-box">
-            <div class="ev-level-3-box-name">
-              Harriet Tubman
-            </div><!-- /.ev-level-3-box-name -->
-            <div class="ev-level-3-box-party">
-              Independent
-            </div><!-- /.ev-level-3-box-party -->
-          </div><!-- /.ev-level-3-box -->
-        </div><!-- /.ev-level-3 -->
-        <div class="ev-level-3">
-          <div class="ev-level-3-profile-picture">
-            <img src="img/ppl/williamblake.jpg" />
-          </div><!-- /.ev-level-3-profile-picture -->
-          <div class="ev-level-3-social">
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-envelope-o icon-public-email"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-linkedin icon-linkedin"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-twitter icon-twitter"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-facebook icon-facebook"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon icon-homepage">
-              <a href="#"><i class="fa fa-home icon-homepage"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-          </div><!-- /.ev-level-3-social -->
-          <div class="ev-level-3-box">
-            <div class="ev-level-3-box-name">
-              William Blake
-            </div><!-- /.ev-level-3-box-name -->
-            <div class="ev-level-3-box-party">
-              Independent
-            </div><!-- /.ev-level-3-box-party -->
-          </div><!-- /.ev-level-3-box -->
-        </div><!-- /.ev-level-3 -->
-        <div class="ev-level-3">
-          <div class="ev-level-3-profile-picture">
-            <img src="img/ppl/thomaspaine.jpg" />
-          </div><!-- /.ev-level-3-profile-picture -->
-          <div class="ev-level-3-social">
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-envelope-o icon-public-email"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-linkedin icon-linkedin"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-twitter icon-twitter"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-facebook icon-facebook"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon icon-homepage">
-              <a href="#"><i class="fa fa-home icon-homepage"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-          </div><!-- /.ev-level-3-social -->
-          <div class="ev-level-3-box">
-            <div class="ev-level-3-box-name">
-              Thomas Paine
-            </div><!-- /.ev-level-3-box-name -->
-            <div class="ev-level-3-box-party">
-              Independent
-            </div><!-- /.ev-level-3-box-party -->
-          </div><!-- /.ev-level-3-box -->
-        </div><!-- /.ev-level-3 -->
-        <div class="ev-level-1">
-          <div class="ev-level-1-name">
-            Judicial Branch <small>(4)</small>
-          </div><!-- /.ev-level-1-name -->    
-        </div><!-- /.ev-level-1 -->
-        <div class="ev-level-2">
-          <div class="ev-level-2-name">
-            Supreme Court Justice <small>(4)</small>
-          </div><!-- /.ev-level-2-name -->
-        </div><!-- /.ev-level-2 -->
-        <div class="ev-level-3">
-          <div class="ev-level-3-profile-picture">
-            <img src="img/ppl/marywollstonecraft.jpg" />
-          </div><!-- /.ev-level-3-profile-picture -->
-          <div class="ev-level-3-social">
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-envelope-o icon-public-email"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-linkedin icon-linkedin"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-twitter icon-twitter"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-facebook icon-facebook"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon icon-homepage">
-              <a href="#"><i class="fa fa-home icon-homepage"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-          </div><!-- /.ev-level-3-social -->
-          <div class="ev-level-3-box">
-            <div class="ev-level-3-box-name">
-              Mary Wollstonecraft
-            </div><!-- /.ev-level-3-box-name -->
-            <div class="ev-level-3-box-party">
-              Independent
-            </div><!-- /.ev-level-3-box-party -->
-          </div><!-- /.ev-level-3-box -->
-        </div><!-- /.ev-level-3 -->
-        <div class="ev-level-3">
-          <div class="ev-level-3-profile-picture">
-            <img src="img/ppl/voltaire.jpg" />
-          </div><!-- /.ev-level-3-profile-picture -->
-          <div class="ev-level-3-social">
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-envelope-o icon-public-email"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-linkedin icon-linkedin"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-twitter icon-twitter"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-facebook icon-facebook"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon icon-homepage">
-              <a href="#"><i class="fa fa-home icon-homepage"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-          </div><!-- /.ev-level-3-social -->
-          <div class="ev-level-3-box">
-            <div class="ev-level-3-box-name">
-              Voltaire
-            </div><!-- /.ev-level-3-box-name -->
-            <div class="ev-level-3-box-party">
-              Independent
-            </div><!-- /.ev-level-3-box-party -->
-          </div><!-- /.ev-level-3-box -->
-        </div><!-- /.ev-level-3 -->
-        <div class="ev-level-3">
-          <div class="ev-level-3-profile-picture">
-            <img src="img/ppl/lucystone.jpg" />
-          </div><!-- /.ev-level-3-profile-picture -->
-          <div class="ev-level-3-social">
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-envelope-o icon-public-email"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-linkedin icon-linkedin"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-twitter icon-twitter"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-facebook icon-facebook"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon icon-homepage">
-              <a href="#"><i class="fa fa-home icon-homepage"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-          </div><!-- /.ev-level-3-social -->
-          <div class="ev-level-3-box">
-            <div class="ev-level-3-box-name">
-              Lucy Stone
-            </div><!-- /.ev-level-3-box-name -->
-            <div class="ev-level-3-box-party">
-              Independent
-            </div><!-- /.ev-level-3-box-party -->
-          </div><!-- /.ev-level-3-box -->
-        </div><!-- /.ev-level-3 -->
-        <div class="ev-level-3">
-          <div class="ev-level-3-profile-picture">
-            <img src="img/ppl/ralphwaldoemerson.jpg" />
-          </div><!-- /.ev-level-3-profile-picture -->
-          <div class="ev-level-3-social">
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-envelope-o icon-public-email"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-linkedin icon-linkedin"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-twitter icon-twitter"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon">
-              <a href="#"><i class="fa fa-facebook icon-facebook"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-            <div class="ev-level-3-social-icon icon-homepage">
-              <a href="#"><i class="fa fa-home icon-homepage"></i></a>
-            </div><!-- /.ev-level-3-social-icon -->
-          </div><!-- /.ev-level-3-social -->
-          <div class="ev-level-3-box">
-            <div class="ev-level-3-box-name">
-              Ralph Waldo Emerson
-            </div><!-- /.ev-level-3-box-name -->
-            <div class="ev-level-3-box-party">
-              Independent
-            </div><!-- /.ev-level-3-box-party -->
-          </div><!-- /.ev-level-3-box -->
-        </div><!-- /.ev-level-3 -->
-      </div><!-- /.ev-levels -->
-    </div><!-- /.ev -->
-  </div>
-  <div class="col-md-3 hidden-xs hidden-sm visible-md visible-lg">
-    <div class="ev-right">
-      <div class="ev-right-header">
-        <div class="btn-group ev-right-dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown">
-            Recent Activity <span class="caret"></span> &nbsp
-          </a>
-          <ul class="dropdown-menu ev-right-dropdown-menu" role="menu">
-            <li><a href="#">Announcements</a></li>
-            <li><a href="#">Candidates</a></li>
-            <li><a href="#">Members</a></li>
-            <li><a href="#">Officers</a></li>
-          </ul>
-        </div><!-- /.btn-group ev-right-dropdown-->
-      </div><!-- /.ev-right-header -->
-      <div class="ev-right-body">
-        <div class="ev-right-item-first">
-          <div class="ev-right-item-profile-picture">
-            <img src="img/ppl/martinlutherkingjr.jpg" />
-          </div><!-- /.ev-level-3-profile-picture -->
-          <div class="ev-right-item-box">
-            <div class="ev-right-item-box-text">
-              Martin Luther King Jr. updated his candidate profile
-            </div><!-- /.ev-right-item-box-text -->
-          </div><!-- /.ev-right-item-box -->
-          <div class="ev-clear">
-          </div>
-        </div><!-- /.ev-right-item-first -->
-        <div class="ev-right-item">
-          <div class="ev-right-item-profile-picture">
-            <img src="img/ppl/lucystone.jpg" />
-          </div><!-- /.ev-level-3-profile-picture -->
-          <div class="ev-right-item-box">
-            <div class="ev-right-item-box-text">
-              Lucy Stone answered the question "Lorem ipsum dolor sit amet, gravida elementum ..."
-            </div><!-- /.ev-right-item-box-text -->
-          </div><!-- /.ev-right-item-box -->
-          <div class="ev-clear">
-          </div>
-        </div><!-- /.ev-right-item -->
-        <div class="ev-right-item">
-          <div class="ev-right-item-profile-picture">
-            <img src="img/ppl/buckminsterfuller.jpg" />
-          </div><!-- /.ev-level-3-profile-picture -->
-          <div class="ev-right-item-box">
-            <div class="ev-right-item-box-text">
-              Buckminster Fuller asked the question "Lorem ipsum dolor sit amet, gravida elementum ..."
-            </div><!-- /.ev-right-item-box-text -->
-          </div><!-- /.ev-right-item-box -->
-          <div class="ev-clear">
-          </div>
-        </div><!-- /.ev-right-item -->
-        <div class="ev-right-item">
-          <div class="ev-right-item-profile-picture">
-            <img src="img/ppl/alberteinstein.jpg" />
-          </div><!-- /.ev-level-3-profile-picture -->
-          <div class="ev-right-item-box">
-            <div class="ev-right-item-box-text">
-              Albert Einstein is running for Senator - District 1
-            </div><!-- /.ev-right-item-box-text -->
-          </div><!-- /.ev-right-item-box -->
-          <div class="ev-clear">
-          </div>
-        </div><!-- /.ev-right-item -->
-        <div class="ev-right-item">
-          <div class="ev-right-item-profile-picture">
-            <img src="img/ppl/harriettubman.jpg" />
-          </div><!-- /.ev-level-3-profile-picture -->
-          <div class="ev-right-item-box">
-            <div class="ev-right-item-box-text">
-              Harriet Tubman replied to Susan B. Anthony's comment 
-            </div><!-- /.ev-right-item-box-text -->
-          </div><!-- /.ev-right-item-box -->
-          <div class="ev-clear">
-          </div>
-        </div><!-- /.ev-right-item -->
-        <div class="ev-right-item">
-          <div class="ev-right-item-profile-picture">
-            <img src="img/ppl/williamblake.jpg" />
-          </div><!-- /.ev-level-3-profile-picture -->
-          <div class="ev-right-item-box">
-            <div class="ev-right-item-box-text">
-              William Blake updated his member profile
-            </div><!-- /.ev-right-item-box-text -->
-          </div><!-- /.ev-right-item-box -->
-          <div class="ev-clear">
-          </div>
-        </div><!-- /.ev-right-item -->
-        <div class="ev-right-item">
-          <div class="ev-right-item-profile-picture">
-            <img src="img/ppl/marywollstonecraft.jpg" />
-          </div><!-- /.ev-level-3-profile-picture -->
-          <div class="ev-right-item-box">
-            <div class="ev-right-item-box-text">
-              Mary Wollstonecraft joined NIU Student Association
-            </div><!-- /.ev-right-item-box-text -->
-          </div><!-- /.ev-right-item-box -->
-          <div class="ev-clear">
-          </div>
-        </div><!-- /.ev-right-item -->
-        <div class="ev-right-item">
-          <div class="ev-right-item-profile-picture">
-            <img src="img/ppl/sojournertruth.jpg" />
-          </div><!-- /.ev-level-3-profile-picture -->
-          <div class="ev-right-item-box">
-            <div class="ev-right-item-box-text">
-              Sojourner Truth added the 01/12/2012 event "First Meeting of the Year"
-            </div><!-- /.ev-right-item-box-text -->
-          </div><!-- /.ev-right-item-box -->
-          <div class="ev-clear">
-          </div>
-        </div><!-- /.ev-right-item -->
-      </div><!-- /.ev-right-body -->
-      <div class="ev-right-footer">
-        <i class="fa fa-chevron-up"></i>
-      </div><!-- /.ev-right-footer -->
-    </div><!-- /.ev-right -->
-  </div><!-- /.col-sm-4 col-md-3 hidden-xs visible-sm visible-md visible-lg -->
-</div><!-- /.ev-max-width -->
+      </div>
+      <div class="ev-home-group-box">
+        <div class="ev-home-group-box-name">
+          <a href="uiuc/index.html">University of Illinois Urbana-Champaign <span style="color:#f00;">(Click Here)</span></a>
+        </div>
+        <div class="ev-home-group-box-category">
+          Higher Education
+        </div>
+        <div class="ev-home-group-box-next-election">
+          Next Election: 03/04/2012
+        </div>
+        <div class="ev-home-group-box-social">
+          <div class="ev-home-group-box-social-icon">
+            <a href="#"><i class="fa fa-envelope-o icon-public-email"></i></a>
+          </div><!-- /.ev-home-group-box-social-icon -->
+          <div class="ev-home-group-box-social-icon">
+            <a href="http://www.linkedin.com/edu/university-of-illinois-at-urbana-champaign-18321" target="_blank"><i class="fa fa-linkedin icon-linkedin"></i></a>
+          </div><!-- /.ev-home-group-box-social-icon -->
+          <div class="ev-home-group-box-social-icon">
+            <a href="https://www.twitter.com/Illinois_Alma" target="_blank"><i class="fa fa-twitter icon-twitter"></i></a>
+          </div><!-- /.ev-home-group-box-social-icon -->
+          <div class="ev-home-group-box-social-icon">
+            <a href="https://www.facebook.com/illinois.edu" target="_blank"><i class="fa fa-facebook icon-facebook"></i></a>
+          </div><!-- /.ev-home-group-box-social-icon -->
+          <div class="ev-home-group-box-social-icon icon-homepage">
+            <a href="http://www.illinois.edu" target="_blank"><i class="fa fa-home icon-homepage"></i></a>
+          </div><!-- /.ev-home-group-box-social-icon -->
+        </div><!-- /.ev-home-group-box-social -->
+      </div><!-- /.ev-home-group-box -->
+      <div class="ev-clear">
+      </div>
+    </div><!-- /.ev-home-group -->
+  </div><!-- /.ev-max-width-home -->
+<div class="ev-clear">
+</div>
+</div><!-- /.col-xs-12 -->
 
 <div class="ev-clear">
 </div>
