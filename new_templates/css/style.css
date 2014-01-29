@@ -294,7 +294,7 @@ body {
 
 @media (min-width:992px) {
     .ev {
-        padding:0 30px 30px 30px;
+        padding:10px 30px 30px 30px;
         margin:0 0 0 -40px;
         background-color:#fcfcfc;
         border-right:1px solid #bbb;
@@ -946,8 +946,8 @@ body {
 }
 
 .ev-person-profile-picture img {
-    width:80px;
-    height:80px;
+    width:100px;
+    height:100px;
     border-radius:5px;
 }
 
@@ -983,7 +983,7 @@ body {
 
 .ev-person-box-social {
     clear:left;
-    margin:5px 0 0 0;
+    margin:25px 0 0 0;
 }
 
 .ev-person-box-social-icon {
