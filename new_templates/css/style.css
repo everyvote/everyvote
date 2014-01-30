@@ -328,9 +328,15 @@ body {
     font-size:15px;
 }
 
+.ev-constituency {
+    font-size:28px;
+    font-weight:bold;
+}
+
 .ev-headline {
     display:inline-block;
     float:left;
+    clear:left;
     margin:0 20px 10px 0;
     font-size:24px;
     font-weight:bold;
@@ -339,7 +345,7 @@ body {
 .ev-button {
     display:inline-block;
     float:right;
-    margin:2px 0 5px 10px;
+    margin:5px 0 5px 10px;
     padding:5px 0;
     font-size:15px;
     border-radius:10px;
@@ -349,7 +355,7 @@ body {
     display:inline-block;
     clear:left;
     float:left;
-    margin:7px 0 0 0;
+    margin:5px 0 0 0;
     padding:0 0 10px 0;
     font-size:15px;
     border-radius:10px;

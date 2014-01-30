@@ -1,0 +1,32 @@
+What is your project?
+
+EveryVote's goal is to create open source technology that helps people learn about, contact, and share their opinion on all of their candidates for office, all through one convenient website. Furthermore, EveryVote to abide by open standards and provide 
+
+open source (AGPLv3) election and townhall platform
+learn about, contact, and share their opinion on all of their candidates for office from one convenient website
+
+EveryVote TownHall, an open source (AGPLv3) webapp designed to allow any organization to share election information and hold townhall style debates online. In a nutshell, EveryVote's organizational goal is to make it easy for people to learn about, contact, and share their opinion on any candidate for any office from one convenient website.
+
+Who is the audience/user of this project? How will they be impacted?
+
+The initial intended audience for EveryVote would be university student organizations that hold elections, typically in the Fall and Spring semesters each year. EveryVote would provide 
+
+Students who are not 
+
+Who's on your team?
+
+Mitch
+Vince
+Marietta
+
+What assumptions will you test?
+
+student apathy
+do-it-yourself 
+
+What have you made so far?
+
+responsive prototype using HTML/CSS/Bootstrap/Angular.js
+EveryVote Constitution
+
+
