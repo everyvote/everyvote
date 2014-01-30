@@ -1009,10 +1009,8 @@ body {
 }
 
 .ev-right-header {
-    background-color:#f5f5f5;
+    background-color:#fcfcfc;
     border:1px solid #bbb;
-    border-top-right-radius:5px;
-    border-top-left-radius:5px;
 }
 
 .ev-right-dropdown {
@@ -1033,7 +1031,7 @@ body {
 }
 
 .ev-right-body {
-    height:420px;
+    height:500px;
     padding:0 10px;
     overflow:auto;
     background-color:#fcfcfc;
@@ -1047,7 +1045,7 @@ body {
 
 .ev-right-item {
     padding:10px 0;
-    border-top:1px dotted #bbb;
+    border-top:1px solid #eee;
 }
 
 .ev-right-item-profile-picture {
@@ -1073,10 +1071,8 @@ body {
 
 .ev-right-footer {
     padding:3px 0;
-    background-color:#f5f5f5;
+    background-color:#fcfcfc;
     border:1px solid #bbb;
-    border-bottom-right-radius:5px;
-    border-bottom-left-radius:5px;
     color:#888;
     text-align:center;
     font-size:10px;
